@@ -1,3 +1,51 @@
+@font-face {
+  font-family: 'DancingScript-VariableFont_wght';
+  src: url("polices/Dancing_Script/DancingScript-VariableFont_wght.eot");
+  src: url("polices/Dancing_Script/DancingScript-VariableFont_wght.eot?#iefix") format("embedded-opentype"), url("polices/Dancing_Script/DancingScript-VariableFont_wght.ttf") format("truetype"), url("polices/Dancing_Script/DancingScript-VariableFont_wght.svg#DancingScript-VariableFont_wght") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+nav {
+  width: 100%;
+  height: 228px;
+  text-align: center;
+  background-color: #669999;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
+.container {
+  display: flex;
+  justify-content: space-between; }
+
+.selection {
+  border: 1px solid black;
+  width: 30%;
+  height: 500px;
+  margin: 5% 10% 5% 10%;
+  background-color: #ffcccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .selection p {
+    font-size: 1.5rem; }
+  .selection h2 {
+    font-size: 1.8rem; }
+  .selection--white {
+    background-color: #ffffff; }
+
+.prochainement {
+  border: 1px solid black;
+  width: 50%;
+  margin: 0 25% 5% 25%;
+  height: 125px;
+  border-radius: 1rem; }
+
+footer {
+  background-color: #669999;
+  width: 100%;
+  height: 145px;
+  display: flex;
+  justify-content: space-between; }
 
 /*# sourceMappingURL=style.css.map */
