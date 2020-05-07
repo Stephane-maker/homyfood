@@ -6,6 +6,30 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'MarckScript-Regular';
+    src: url('polices/Marck_Script/MarckScript-Regular.eot');
+    src: url('polices/Marck_Script/MarckScript-Regular.eot?#iefix') format('embedded-opentype'), url('polices/Marck_Script/MarckScript-Regular.ttf') format('truetype'), url('polices/Marck_Script/MarckScript-Regular.svg#MarckScript-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pacifico-Regular';
+    src: url('polices/Pacifico/Pacifico-Regular.eot');
+    src: url('polices/Pacifico/Pacifico-Regular.eot?#iefix') format('embedded-opentype'), url('polices/Pacifico/Pacifico-Regular.ttf') format('truetype'), url('polices/Pacifico/Pacifico-Regular.svg#Pacifico-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Satisfy-Regular';
+    src: url('polices/Satisfy/Satisfy-Regular.eot');
+    src: url('polices/Satisfy/Satisfy-Regular.eot?#iefix') format('embedded-opentype'), url('polices/Satisfy/Satisfy-Regular.ttf') format('truetype'), url('polices/Satisfy/Satisfy-Regular.svg#Satisfy-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 $couleur_principal: #669999;
 $couleur_selection: #ffcccc;
 $white_color: #ffffff;
@@ -34,14 +58,30 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Pacifico-Regular', arial, sans-serif;
     p {
         font-size: 1.5rem;
     }
     h2 {
         font-size: 1.8rem;
+        text-transform: uppercase;
     }
     &--white {
         background-color: $white_color;
+        font-family: 'Satisfy-Regular';
+    }
+    &--polices {
+        font-family: 'MarckScript-Regular';
+        background-color: $white_color;
+    }
+    &--modification {
+        font-family: 'Satisfy-Regular';
+        background-color: $white_color;
+    }
+    &:hover {
+        box-shadow: 2px 2px 2px black;
+        transform: translateX(100%) scale(2);
+        transition: transform 330ms ease-in-out;
     }
 }
 
