@@ -68,11 +68,19 @@ a {
         box-shadow: 2px 2px 2px $black;
         width: 20%;
         height: 300px;
-        transform: translateX(100%) scale(2);
+        transform: translateY(90%) translateX(100%) scale(2);
         transition: transform 330ms ease-in-out;
     }
     &.gauche:hover {
         transform: translateY(100%) translateX(-100%) scale(2);
+        transition: transform 330ms ease-in-out;
+    }
+    &.haut:hover {
+        transform: translateY(-80%) translateX(110%) scale(2);
+        transition: transform 330ms ease-in-out;
+    }
+    &.centre:hover {
+        transform: translateY(-80%) translateX(-100%) scale(2);
         transition: transform 330ms ease-in-out;
     }
 }
@@ -81,7 +89,6 @@ a {
     display: flex;
     width: 90%;
     justify-content: space-around;
-    flex-wrap: wrap;
 }
 
 button {
@@ -118,7 +125,6 @@ button {
     &:active {
         border: 1px 1px 1px $black;
         transform: translateX(0) scale(0.9);
-        animation: none;
     }
 }
 

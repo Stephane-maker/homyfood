@@ -54,17 +54,22 @@ a {
     box-shadow: 2px 2px 2px #000000;
     width: 20%;
     height: 300px;
-    transform: translateX(100%) scale(2);
+    transform: translateY(90%) translateX(100%) scale(2);
     transition: transform 330ms ease-in-out; }
   a.gauche:hover {
     transform: translateY(100%) translateX(-100%) scale(2);
+    transition: transform 330ms ease-in-out; }
+  a.haut:hover {
+    transform: translateY(-80%) translateX(110%) scale(2);
+    transition: transform 330ms ease-in-out; }
+  a.centre:hover {
+    transform: translateY(-80%) translateX(-100%) scale(2);
     transition: transform 330ms ease-in-out; }
 
 .container {
   display: flex;
   width: 90%;
-  justify-content: space-around;
-  flex-wrap: wrap; }
+  justify-content: space-around; }
 
 button {
   width: 30%;
@@ -92,8 +97,7 @@ button {
     transform: translate(0px) rotate(3deg); } }
   button:active {
     border: 1px 1px 1px #000000;
-    transform: translateX(0) scale(0.9);
-    animation: none; }
+    transform: translateX(0) scale(0.9); }
 
 footer {
   background-color: #669999;
