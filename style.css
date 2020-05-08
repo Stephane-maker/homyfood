@@ -31,46 +31,73 @@ nav {
   justify-content: center;
   align-items: center; }
 
-.container {
-  display: flex;
-  justify-content: space-between; }
-
-.selection {
-  border: 1px solid black;
-  width: 30%;
-  height: 500px;
-  margin: 5% 10% 5% 10%;
-  background-color: #ffcccc;
+body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center; }
+
+a {
+  display: block;
+  width: 20%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  font-family: 'Pacifico-Regular', arial, sans-serif; }
-  .selection p {
-    font-size: 1.5rem; }
-  .selection h2 {
-    font-size: 1.8rem;
-    text-transform: uppercase; }
-  .selection--white {
-    background-color: #ffffff;
-    font-family: 'Satisfy-Regular'; }
-  .selection--polices {
-    font-family: 'MarckScript-Regular';
-    background-color: #ffffff; }
-  .selection--modification {
-    font-family: 'Satisfy-Regular';
-    background-color: #ffffff; }
-  .selection:hover {
-    box-shadow: 2px 2px 2px black;
-    transform: translateX(100%) scale(2);
+  justify-content: center;
+  text-decoration: none;
+  color: #000000;
+  border: 1px solid black;
+  margin: 5% 0 5% 0; }
+  a:hover {
+    background-color: #ffcccc;
+    box-shadow: 2px 2px 2px #000000;
+    width: 20%;
+    height: 300px;
+    transform: translateY(90%) translateX(100%) scale(2);
+    transition: transform 330ms ease-in-out; }
+  a.gauche:hover {
+    transform: translateY(100%) translateX(-100%) scale(2);
+    transition: transform 330ms ease-in-out; }
+  a.haut:hover {
+    transform: translateY(-80%) translateX(110%) scale(2);
+    transition: transform 330ms ease-in-out; }
+  a.centre:hover {
+    transform: translateY(-80%) translateX(-100%) scale(2);
     transition: transform 330ms ease-in-out; }
 
-.prochainement {
-  border: 1px solid black;
-  width: 50%;
-  margin: 0 25% 5% 25%;
-  height: 125px;
-  border-radius: 1rem; }
+.container {
+  display: flex;
+  width: 90%;
+  justify-content: space-around; }
+
+button {
+  width: 30%;
+  height: 50px;
+  border-radius: 3rem;
+  outline: none;
+  margin: 0 0 5% 0;
+  font-size: 2rem; }
+  button:hover {
+    background-color: #ffcccc;
+    animation: button 0.7s steps(3);
+    box-shadow: 2px 2px 2px #000000;
+    transform: translateX(0) scale(1);
+    animation: button 0.7s 100ms ease-in-out; }
+@keyframes button {
+  from {
+    transform: translateX(0px) rotate(3deg); }
+  30% {
+    transform: translateY(0px) rotate(0deg); }
+  60% {
+    transform: translateX(0px) rotate(3deg); }
+  80% {
+    transform: translateY(0px) rotate(0deg); }
+  to {
+    transform: translate(0px) rotate(3deg); } }
+  button:active {
+    border: 1px 1px 1px #000000;
+    transform: translateX(0) scale(0.9); }
 
 footer {
   background-color: #669999;
