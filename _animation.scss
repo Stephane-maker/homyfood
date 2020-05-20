@@ -1,0 +1,53 @@
+a {
+    &:hover {
+        background-color: $couleur_selection;
+        box-shadow: 2px 2px 2px $black;
+        width: $width100/5;
+        height: $height200+100;
+        transform: translateY(90%) translateX(100%) scale(2);
+        transition: transform 330ms ease-in-out;
+    }
+    &.gauche:hover {
+        transform: translateY(100%) translateX(-100%) scale(2);
+        transition: transform 330ms ease-in-out;
+    }
+    &.haut:hover {
+        transform: translateY(-80%) translateX(110%) scale(2);
+        transition: transform 330ms ease-in-out;
+    }
+    &.centre:hover {
+        transform: translateY(-80%) translateX(-100%) scale(2);
+        transition: transform 330ms ease-in-out;
+    }
+}
+
+button {
+    &:hover {
+        background-color: $couleur_selection;
+        animation: button 0.7s steps(3);
+        box-shadow: 2px 2px 2px $black;
+        transform: translateX(0) scale(1);
+        animation: button 0.7s 100ms ease-in-out;
+        @keyframes button {
+            from {
+                transform: rotate(3deg);
+            }
+            30% {
+                transform: rotate(0deg);
+            }
+            60% {
+                transform: rotate(3deg);
+            }
+            80% {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(3deg);
+            }
+        }
+    }
+    &:active {
+        border: 1px 1px 1px $black;
+        transform: scale(0.9);
+    }
+}
