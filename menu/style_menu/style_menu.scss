@@ -2,6 +2,7 @@
 @import "mixin_menu.scss";
 body {
     @include elementencolonne();
+    font-family: 'Lobster-Regular', arial, sans-serif;
 }
 
 .titre_principal {
@@ -10,24 +11,40 @@ body {
     align-items: center;
 }
 
-.prelude {
-    @include elementencolonne();
-    justify-content: center;
-    align-items: center;
+.prelude,
+.point_orgue,
+.mouvement_final {
+    display: flex;
+    @include elementcentre();
+    font-weight: bolder;
+    margin: 0 5% 0 5%;
+    font-size: 1.8rem;
+}
+
+.prix {
+    display: flex;
+    flex-direction: row;
+}
+
+.separateur {
+    margin: 0 5% 0 5%;
 }
 
 article {
     @include elementencolonne();
-    font-family: 'Lobster-Regular', arial, sans-serif;
     font-size: 1.5rem;
-    border: 1px solid black;
+    margin: 2% 0 2% 0;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .container_menu {
     display: grid;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    border: 1px solid black;
+    @include elementcentre();
+}
+
+.container_note_enchante {
+    display: flex;
+    @include elementcentre();
+    margin: 5% 0 0 0;
 }
