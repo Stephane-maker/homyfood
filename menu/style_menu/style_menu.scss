@@ -1,0 +1,33 @@
+@import "C:/Users/steph/OneDrive/Bureau/homyfood/homyfood/scss/polices.scss";
+@import "mixin_menu.scss";
+body {
+    @include elementencolonne();
+}
+
+.titre_principal {
+    @include elementencolonne();
+    justify-content: center;
+    align-items: center;
+}
+
+.prelude {
+    @include elementencolonne();
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    @include elementencolonne();
+    font-family: 'Lobster-Regular', arial, sans-serif;
+    font-size: 1.5rem;
+    border: 1px solid black;
+}
+
+.container_menu {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: 1px solid black;
+}

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,OAAQ;EACJ,MAAM,EAAE,eAAe",
+"sources": ["style_menu.scss"],
+"names": [],
+"file": "style_menu.css"
+}
