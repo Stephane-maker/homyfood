@@ -5,6 +5,12 @@ body {
     font-family: 'Lobster-Regular', arial, sans-serif;
 }
 
+.container {
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
 .titre_principal {
     @include elementencolonne();
     justify-content: center;
@@ -24,6 +30,7 @@ body {
 .prix {
     display: flex;
     flex-direction: row;
+    padding: 0 0 0 5%;
 }
 
 .separateur {
@@ -47,4 +54,14 @@ article {
     display: flex;
     @include elementcentre();
     margin: 5% 0 0 0;
+}
+
+.note_enchante {
+    margin: 0 0 0 2%;
+}
+
+.en_appetit,
+.papilles,
+.gourmandise_sucrées {
+    @include titre_menu();
 }
