@@ -1,4 +1,4 @@
-a:hover {
+.lien_cliquable:hover {
   background-color: #ffcccc;
   -webkit-box-shadow: 2px 2px 2px #000000;
           box-shadow: 2px 2px 2px #000000;
@@ -10,21 +10,21 @@ a:hover {
   transition: -webkit-transform 330ms ease-in-out;
   transition: transform 330ms ease-in-out;
   transition: transform 330ms ease-in-out, -webkit-transform 330ms ease-in-out; }
-a.gauche:hover {
+.lien_cliquable.gauche:hover {
   -webkit-transform: translateY(100%) translateX(-100%) scale(2);
           transform: translateY(100%) translateX(-100%) scale(2);
   -webkit-transition: -webkit-transform 330ms ease-in-out;
   transition: -webkit-transform 330ms ease-in-out;
   transition: transform 330ms ease-in-out;
   transition: transform 330ms ease-in-out, -webkit-transform 330ms ease-in-out; }
-a.haut:hover {
+.lien_cliquable.haut:hover {
   -webkit-transform: translateY(-80%) translateX(110%) scale(2);
           transform: translateY(-80%) translateX(110%) scale(2);
   -webkit-transition: -webkit-transform 330ms ease-in-out;
   transition: -webkit-transform 330ms ease-in-out;
   transition: transform 330ms ease-in-out;
   transition: transform 330ms ease-in-out, -webkit-transform 330ms ease-in-out; }
-a.centre:hover {
+.lien_cliquable.centre:hover {
   -webkit-transform: translateY(-80%) translateX(-100%) scale(2);
           transform: translateY(-80%) translateX(-100%) scale(2);
   -webkit-transition: -webkit-transform 330ms ease-in-out;
@@ -101,6 +101,21 @@ nav {
   text-align: center;
   font-size: 5rem; }
 
+a {
+  text-decoration: none;
+  color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin: 0 5% 0 5%; }
+
 body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -117,7 +132,7 @@ body {
           align-items: center;
   font-family: 'Lobster-Regular'; }
 
-a {
+.lien_cliquable {
   display: block;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -157,11 +172,14 @@ button {
 
 footer {
   background-color: #669999;
-  width: 100%;
-  height: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: auto;
+  padding: 0 0 15% 0;
+  position: fixed;
+  width: 100%;
+  height: 100px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
