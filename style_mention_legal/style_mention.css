@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Lobster-Regular';
+  src: url("../style_mention_legal/police_mention/teko/Teko-Medium.eot");
+  src: url("../style_mention_legal/police_mention/teko/Teko-Medium.eot?#iefix") format("embedded-opentype"), url("../style_mention_legal/police_mention/teko/Teko-Medium.ttf") format("truetype"), url("../style_mention_legal/police_mention/teko/Teko-Medium.svg#Lobster-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  font-family: 'Lobster-Regular'; }
+
+article {
+  width: 70%;
+  font-size: 1.2rem;
+  margin: 2% 0 2% 0; }
+
+p {
+  font-weight: bolder;
+  font-size: 1.5rem; }
+
+/*# sourceMappingURL=style_mention.css.map */

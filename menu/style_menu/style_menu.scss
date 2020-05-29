@@ -1,8 +1,8 @@
-@import "C:/Users/steph/OneDrive/Bureau/homyfood/homyfood/scss/polices.scss";
+@import "polices_menu.scss";
 @import "mixin_menu.scss";
 body {
     @include elementencolonne();
-    font-family: 'Lobster-Regular', arial, sans-serif;
+    font-family: 'DancingScript-VariableFont_wght', Arial, sans-serif;
 }
 
 .container {

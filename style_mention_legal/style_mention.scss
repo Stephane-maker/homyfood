@@ -1,0 +1,19 @@
+@import "police_mention_legal.scss";
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    font-family: 'Lobster-Regular';
+}
+
+article {
+    width: 70%;
+    font-size: 1.2rem;
+    margin: 2% 0 2% 0;
+}
+
+p {
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
