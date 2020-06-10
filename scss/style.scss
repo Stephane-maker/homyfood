@@ -29,8 +29,20 @@ body {
     width: $width100/5;
     height: $height200*2;
     color: $black;
-    border: $border;
+    border: none;
     margin: 5% 0 5% 0;
+    background-color: $couleur_selection;
+    font-family: 'BalsamiqSans-Bold', arial, sans-serif;
+    &.gauche {
+        background-color: #fff5fe;
+        font-family: 'Aladin-Regular';
+    }
+    &.haut {
+        font-family: 'Arizonia-Regular';
+    }
+    &.centre {
+        font-family: 'KaushanScript-Regular';
+    }
 }
 
 .container {
