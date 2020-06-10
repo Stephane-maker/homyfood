@@ -9,22 +9,22 @@ body {
     width: auto;
     height: auto;
     margin: auto;
+    &--note_enchanter {
+        font-family: 'PatrickHand-Regular', arial, sans-serif;
+    }
+}
+
+.background {
+    background-color: #ffcccc;
+}
+
+h3 {
+    font-size: 1.5rem;
 }
 
 .titre_principal {
     @include elementencolonne();
-    justify-content: center;
-    align-items: center;
-}
-
-.prelude,
-.point_orgue,
-.mouvement_final {
-    display: flex;
     @include elementcentre();
-    font-weight: bolder;
-    margin: 0 5% 0 5%;
-    font-size: 1.8rem;
 }
 
 .prix {
@@ -37,6 +37,10 @@ body {
     margin: 0 5% 0 5%;
 }
 
+.logo {
+    margin: 0 2% 0 0;
+}
+
 article {
     @include elementencolonne();
     font-size: 1.5rem;
@@ -45,8 +49,12 @@ article {
     justify-content: space-between;
 }
 
+section {
+    display: flex;
+    @include elementcentre();
+}
+
 .container_menu {
-    display: grid;
     @include elementcentre();
 }
 
