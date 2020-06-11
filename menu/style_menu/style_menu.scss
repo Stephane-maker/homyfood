@@ -16,10 +16,33 @@ body {
 
 .background {
     background-color: #ffcccc;
+    &--chic_francaise {
+        background-color: #ffcccc;
+        font-family: 'Roboto-Italic', arial, sans-serif;
+    }
 }
 
 h3 {
     font-size: 1.5rem;
+    &.rouge {
+        color: #cc6600;
+    }
+    &.violet {
+        color: #996699;
+    }
+    &.blue {
+        color: #6633cc;
+    }
+}
+
+.text {
+    color: #cc6600;
+    &--violet {
+        color: #996699;
+    }
+    &--blue {
+        color: #6633cc;
+    }
 }
 
 .titre_principal {
@@ -68,8 +91,10 @@ section {
     margin: 0 0 0 2%;
 }
 
-.en_appetit,
-.papilles,
-.gourmandise_sucrées {
-    @include titre_menu();
+.gradient {
+    background: -webkit-gradient(linear, left bottom, right bottom, from(#cc9900), to(#9966ff));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-size: 1.5rem;
 }
