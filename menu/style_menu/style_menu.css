@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @font-face {
   font-family: 'DancingScript-VariableFont_wght';
   src: url("../style_menu/polices_menu/regular_400/DancingScript-VariableFont_wght.eot");
@@ -11,6 +10,18 @@
   src: url("../style_menu/polices_menu/patrick/PatrickHand-Regular.eot?#iefix") format("embedded-opentype"), url("../style_menu/polices_menu/patrick/PatrickHand-Regular.ttf") format("truetype"), url("../style_menu/polices_menu/patrick/PatrickHand-Regular.svg#PatrickHand-Regular") format("svg");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'Roboto-Italic';
+  src: url("../style_menu/polices_menu/roboto/Roboto-Italic.eot");
+  src: url("../style_menu/polices_menu/roboto/Roboto-Italic.eot?#iefix") format("embedded-opentype"), url("../style_menu/polices_menu/roboto/Roboto-Italic.ttf") format("truetype"), url("../style_menu/polices_menu/roboto/Roboto-Italic.svg#") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'BalsamiqSans-BoldItalic';
+  src: url("../style_menu/polices_menu/balsamiq/BalsamiqSans-BoldItalic.eot");
+  src: url("../style_menu/polices_menu/balsamiq/BalsamiqSans-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../style_menu/polices_menu/balsamiq/BalsamiqSans-BoldItalic.ttf") format("truetype"), url("../style_menu/polices_menu/balsamiq/BalsamiqSans-BoldItalic.svg#BalsamiqSans-BoldItalic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -21,18 +32,40 @@ body {
           flex-direction: column;
   font-family: 'DancingScript-VariableFont_wght', Arial, sans-serif; }
 
-.container {
+body > .container {
+  margin: auto;
   width: auto;
-  height: auto;
-  margin: auto; }
-  .container--note_enchanter {
-    font-family: 'PatrickHand-Regular', arial, sans-serif; }
+  height: auto; }
+
+.container--note_enchanter {
+  font-family: 'PatrickHand-Regular', arial, sans-serif; }
 
 .background {
   background-color: #ffcccc; }
+  .background--chic_francaise {
+    background-color: #ffcccc;
+    font-family: 'Roboto-Italic', arial, sans-serif; }
+  .background--delice_papille {
+    font-family: 'BalsamiqSans-BoldItalic';
+    background-color: #ffcccc; }
+  .background--palette {
+    background-color: #ffcccc; }
 
 h3 {
   font-size: 1.5rem; }
+  h3.rouge {
+    color: #cc6600; }
+  h3.violet {
+    color: #996699; }
+  h3.blue {
+    color: #6633cc; }
+
+.text {
+  color: #cc6600; }
+  .text--violet {
+    color: #996699; }
+  .text--blue {
+    color: #6633cc; }
 
 .titre_principal {
   display: -webkit-box;
@@ -62,7 +95,7 @@ h3 {
   padding: 0 0 0 5%; }
 
 .separateur {
-  margin: 0 5% 0 5%; }
+  margin: 5% 5% 5% 5%; }
 
 .logo {
   margin: 0 2% 0 0; }
@@ -123,10 +156,51 @@ section {
 .note_enchante {
   margin: 0 0 0 2%; }
 
-.en_appetit,
-.papilles,
-.gourmandise_sucrées {
-  font-weight: bolder;
-  font-size: 1.8rem; }
+.gradient {
+  background: -webkit-gradient(linear, left bottom, right bottom, from(#cc9900), to(#9966ff));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 1.5rem; }
+  .gradient--delice {
+    background: -webkit-gradient(linear, left bottom, right bottom, from(#0033cc), to(#0099ff));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 1.5rem; }
+  .gradient--palette {
+    background: -webkit-gradient(linear, left bottom, right bottom, from(#339933), to(#ccff66));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 1.5rem; }
+
+.position_footer {
+  height: 5%;
+  width: 100%; }
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  margin: -8% auto;
+  width: 100%;
+  height: 10%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.lien {
+  margin: -20% auto; }
+  .lien--chic_francaise {
+    margin: -18% auto; }
+  .lien--delice_papille {
+    margin: -15% auto; }
+
+a {
+  text-decoration: none;
+  color: black;
+  margin: 0 2% 0 2%; }
 
 /*# sourceMappingURL=style_menu.css.map */

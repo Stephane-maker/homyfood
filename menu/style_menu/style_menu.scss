@@ -5,10 +5,13 @@ body {
     font-family: 'DancingScript-VariableFont_wght', Arial, sans-serif;
 }
 
-.container {
+body>.container {
+    margin: auto;
     width: auto;
     height: auto;
-    margin: auto;
+}
+
+.container {
     &--note_enchanter {
         font-family: 'PatrickHand-Regular', arial, sans-serif;
     }
@@ -16,10 +19,40 @@ body {
 
 .background {
     background-color: #ffcccc;
+    &--chic_francaise {
+        background-color: #ffcccc;
+        font-family: 'Roboto-Italic', arial, sans-serif;
+    }
+    &--delice_papille {
+        font-family: 'BalsamiqSans-BoldItalic';
+        background-color: #ffcccc;
+    }
+    &--palette {
+        background-color: #ffcccc;
+    }
 }
 
 h3 {
     font-size: 1.5rem;
+    &.rouge {
+        color: #cc6600;
+    }
+    &.violet {
+        color: #996699;
+    }
+    &.blue {
+        color: #6633cc;
+    }
+}
+
+.text {
+    color: #cc6600;
+    &--violet {
+        color: #996699;
+    }
+    &--blue {
+        color: #6633cc;
+    }
 }
 
 .titre_principal {
@@ -34,7 +67,7 @@ h3 {
 }
 
 .separateur {
-    margin: 0 5% 0 5%;
+    margin: 5% 5% 5% 5%;
 }
 
 .logo {
@@ -68,8 +101,54 @@ section {
     margin: 0 0 0 2%;
 }
 
-.en_appetit,
-.papilles,
-.gourmandise_sucrées {
-    @include titre_menu();
+.gradient {
+    background: -webkit-gradient(linear, left bottom, right bottom, from(#cc9900), to(#9966ff));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    &--delice {
+        background: -webkit-gradient(linear, left bottom, right bottom, from(#0033cc), to(#0099ff));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+    }
+    &--palette {
+        background: -webkit-gradient(linear, left bottom, right bottom, from(#339933), to(#ccff66));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+    }
+}
+
+.position_footer {
+    height: 5%;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    margin: -8% auto;
+    width: 100%;
+    height: 10%;
+    justify-content: space-between;
+}
+
+.lien {
+    margin: -20% auto;
+    &--chic_francaise {
+        margin: -18% auto;
+    }
+    &--delice_papille {
+        margin: -15% auto;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 0 2% 0 2%;
 }
