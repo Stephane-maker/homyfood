@@ -1,5 +1,6 @@
 @import "polices_menu.scss";
 @import "mixin_menu.scss";
+@import "variable_menu.scss";
 body {
     @include elementencolonne();
     font-family: 'DancingScript-VariableFont_wght', Arial, sans-serif;
@@ -18,40 +19,40 @@ body>.container {
 }
 
 .background {
-    background-color: #ffcccc;
+    background-color: $couleur_principal;
     &--chic_francaise {
-        background-color: #ffcccc;
+        background-color: $couleur_principal;
         font-family: 'Roboto-Italic', arial, sans-serif;
     }
     &--delice_papille {
         font-family: 'BalsamiqSans-BoldItalic';
-        background-color: #ffcccc;
+        background-color: $couleur_principal;
     }
     &--palette {
-        background-color: #ffcccc;
+        background-color: $couleur_principal;
     }
 }
 
 h3 {
     font-size: 1.5rem;
     &.rouge {
-        color: #cc6600;
+        color: $rouge;
     }
     &.violet {
-        color: #996699;
+        color: $violet;
     }
     &.blue {
-        color: #6633cc;
+        color: $blue;
     }
 }
 
 .text {
-    color: #cc6600;
+    color: $rouge;
     &--violet {
-        color: #996699;
+        color: $violet;
     }
     &--blue {
-        color: #6633cc;
+        color: $blue;
     }
 }
 
@@ -149,6 +150,6 @@ footer {
 
 a {
     text-decoration: none;
-    color: black;
+    color: $black;
     margin: 0 2% 0 2%;
 }
