@@ -79,6 +79,103 @@ button:active {
   -webkit-transform: scale(0.9);
           transform: scale(0.9); }
 
+.anim {
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+button:hover .rond {
+  background-color: black;
+  -webkit-box-shadow: 2px 2px 2px #000000;
+          box-shadow: 2px 2px 2px #000000;
+  -webkit-transform: translateX(0) scale(1);
+          transform: translateX(0) scale(1);
+  -webkit-animation: suspension 1s 300ms ease-in-out infinite;
+          animation: suspension 1s 300ms ease-in-out infinite; }
+@-webkit-keyframes suspension {
+  from {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px; }
+  50% {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px; }
+  to {
+    border: 1px solid white;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px; } }
+@keyframes suspension {
+  from {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px; }
+  50% {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px; }
+  to {
+    border: 1px solid white;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px; } }
+button:hover .rond-2 {
+  background-color: black;
+  -webkit-box-shadow: 2px 2px 2px #000000;
+          box-shadow: 2px 2px 2px #000000;
+  -webkit-transform: translateX(0) scale(1);
+          transform: translateX(0) scale(1);
+  -webkit-animation: suspension_2 2s 350ms ease-in-out infinite;
+          animation: suspension_2 2s 350ms ease-in-out infinite; }
+@-webkit-keyframes suspension_2 {
+  from {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px; }
+  to {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px; } }
+@keyframes suspension_2 {
+  from {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px; }
+  to {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px; } }
+button:hover .rond-3 {
+  background-color: black;
+  -webkit-box-shadow: 2px 2px 2px #000000;
+          box-shadow: 2px 2px 2px #000000;
+  -webkit-transform: translateX(0) scale(1);
+          transform: translateX(0) scale(1);
+  -webkit-animation: suspension_2 3s 400ms ease-in-out infinite;
+          animation: suspension_2 3s 400ms ease-in-out infinite; }
+@keyframes suspension_2 {
+  from {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px; }
+  to {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px; } }
 @font-face {
   font-family: 'Lobster-Regular';
   src: url("../polices/lobster/Lobster-Regular.eot");
@@ -130,21 +227,6 @@ nav {
           align-items: center;
   text-align: center;
   font-size: 5rem; }
-
-a {
-  text-decoration: none;
-  color: #000000;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
-  margin: 0 5% 0 5%; }
 
 body {
   display: -webkit-box;
@@ -242,20 +324,14 @@ h1 {
   -ms-flex-pack: distribute;
       justify-content: space-around; }
 
-button {
-  width: 33%;
-  height: 50px;
-  border-radius: 3rem;
-  outline: none;
-  margin: 0 0 5% 0;
-  font-size: 2rem; }
-
 footer {
   background-color: #669999;
   position: fixed;
   width: 100%;
-  height: 100px;
-  font-family: 'KronaOne-Regular', Arial, Helvetica, sans-serif; }
+  height: 100px; }
+  footer a {
+    color: #ffcc33;
+    text-decoration: none; }
   footer .container_footer {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -263,7 +339,8 @@ footer {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    padding: 0.5% 0.5% 0.5% 0.5%; }
+    padding: 0.5% 0.5% 0.5% 0.5%;
+    font-family: 'KronaOne-Regular', Arial, Helvetica, sans-serif; }
   footer .lien_footer {
     width: 15%;
     display: -webkit-box;
@@ -272,5 +349,15 @@ footer {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
+
+button {
+  width: 20%;
+  height: 50px;
+  background-color: #669999;
+  color: #ffcc33;
+  border-radius: 1rem;
+  outline: none;
+  margin: 0 0 5% 0;
+  font-size: 2rem; }
 
 /*# sourceMappingURL=style.css.map */

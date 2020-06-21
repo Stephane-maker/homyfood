@@ -51,3 +51,84 @@ button {
         transform: scale(0.9);
     }
 }
+
+.anim {
+    border: 1px solid black;
+    display: flex;
+}
+
+button {
+    &:hover {
+        .rond {
+            background-color: black;
+            box-shadow: 2px 2px 2px $black;
+            transform: translateX(0) scale(1);
+            animation: suspension 1s 300ms ease-in-out infinite;
+            @keyframes suspension {
+                from {
+                    border: 1px solid black;
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 25px;
+                }
+                50% {
+                    border: 1px solid black;
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 25px;
+                }
+                to {
+                    border: 1px solid white;
+                    background-color: white;
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 25px;
+                }
+            }
+        }
+    }
+    &:hover {
+        .rond-2 {
+            background-color: black;
+            box-shadow: 2px 2px 2px $black;
+            transform: translateX(0) scale(1);
+            animation: suspension_2 2s 350ms ease-in-out infinite;
+            @keyframes suspension_2 {
+                from {
+                    border: 1px solid black;
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 25px;
+                }
+                to {
+                    border: 1px solid black;
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 25px;
+                }
+            }
+        }
+    }
+    &:hover {
+        .rond-3 {
+            background-color: black;
+            box-shadow: 2px 2px 2px $black;
+            transform: translateX(0) scale(1);
+            animation: suspension_2 3s 400ms ease-in-out infinite;
+            @keyframes suspension_2 {
+                from {
+                    border: 1px solid black;
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 25px;
+                }
+                to {
+                    border: 1px solid black;
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 25px;
+                }
+            }
+        }
+    }
+}
