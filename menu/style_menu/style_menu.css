@@ -32,13 +32,12 @@ body {
           flex-direction: column;
   font-family: 'DancingScript-VariableFont_wght', Arial, sans-serif; }
 
-body > .container {
+.container {
   margin: auto;
   width: auto;
   height: auto; }
-
-.container--note_enchanter {
-  font-family: 'PatrickHand-Regular', arial, sans-serif; }
+  .container--note_enchanter {
+    font-family: 'PatrickHand-Regular', arial, sans-serif; }
 
 .background {
   background-color: #ffcccc; }
@@ -116,7 +115,8 @@ article {
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
-section {
+section,
+.titre {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -191,11 +191,11 @@ footer {
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
-.lien {
+.lien_footer {
   margin: -20% auto; }
-  .lien--chic_francaise {
+  .lien_footer--chic_francaise {
     margin: -18% auto; }
-  .lien--delice_papille {
+  .lien_footer--delice_papille {
     margin: -15% auto; }
 
 a {

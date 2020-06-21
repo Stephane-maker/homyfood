@@ -2,8 +2,8 @@
     &:hover {
         background-color: $couleur_selection;
         box-shadow: 2px 2px 2px $black;
-        width: $width100/5;
-        height: $height200+100;
+        width: 20%;
+        height: 300px;
         transform: translateY(90%) translateX(100%) scale(2);
         transition: transform 330ms ease-in-out;
     }

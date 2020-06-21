@@ -6,13 +6,10 @@ body {
     font-family: 'DancingScript-VariableFont_wght', Arial, sans-serif;
 }
 
-body>.container {
+.container {
     margin: auto;
     width: auto;
     height: auto;
-}
-
-.container {
     &--note_enchanter {
         font-family: 'PatrickHand-Regular', arial, sans-serif;
     }
@@ -83,7 +80,8 @@ article {
     justify-content: space-between;
 }
 
-section {
+section,
+.titre {
     display: flex;
     @include elementcentre();
 }
@@ -104,23 +102,14 @@ section {
 
 .gradient {
     background: -webkit-gradient(linear, left bottom, right bottom, from(#cc9900), to(#9966ff));
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    text-transform: uppercase;
-    font-size: 1.5rem;
+    @include degrade;
     &--delice {
         background: -webkit-gradient(linear, left bottom, right bottom, from(#0033cc), to(#0099ff));
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-        text-transform: uppercase;
-        font-size: 1.5rem;
+        @include degrade;
     }
     &--palette {
         background: -webkit-gradient(linear, left bottom, right bottom, from(#339933), to(#ccff66));
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-        text-transform: uppercase;
-        font-size: 1.5rem;
+        @include degrade;
     }
 }
 
@@ -138,7 +127,7 @@ footer {
     justify-content: space-between;
 }
 
-.lien {
+.lien_footer {
     margin: -20% auto;
     &--chic_francaise {
         margin: -18% auto;

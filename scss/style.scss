@@ -3,8 +3,8 @@
 @import "animation.scss";
 @import "polices.scss";
 nav {
-    width: $width100;
-    height: $height200;
+    width: 100%;
+    height: 100px;
     background-color: $couleur_principal;
     @include navigation();
 }
@@ -24,10 +24,17 @@ body {
     font-family: 'Lobster-Regular';
 }
 
+h1 {
+    font-family: 'KronaOne-Regular', Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color: $color_titre;
+    text-transform: uppercase;
+}
+
 .lien_cliquable {
     @include cliencliquable();
-    width: $width100/5;
-    height: $height200*2;
+    width: 20%;
+    height: 400px;
     color: $black;
     border: none;
     margin: 5% 0 5% 0;
@@ -49,17 +56,17 @@ body {
 
 .gradient_chic {
     background: -webkit-gradient(linear, left bottom, right bottom, from(#cc9900), to(#9966ff));
-    @include degrader
+    @include degrader();
 }
 
 .gradient_papille {
     background: -webkit-gradient(linear, left bottom, right bottom, from(#0033cc), to(#0099ff));
-    @include degrader
+    @include degrader();
 }
 
 .gradient_palette {
     background: -webkit-gradient(linear, left bottom, right bottom, from(#339933), to(#ccff66));
-    @include degrader
+    @include degrader();
 }
 
 .menu_papille {
@@ -79,23 +86,30 @@ body {
 
 .container {
     display: flex;
-    width: $width100/1.1;
+    width: 90%;
     justify-content: space-around;
 }
 
 button {
-    width: $width100/3.3;
-    height: $height200/4;
+    width: 33%;
+    height: 50px;
     @include button();
 }
 
 footer {
     background-color: $couleur_principal;
-    display: flex;
-    margin: auto;
-    padding: 0 0 15% 0;
     position: fixed;
     width: 100%;
     height: 100px;
-    justify-content: space-between;
+    font-family: 'KronaOne-Regular', Arial, Helvetica, sans-serif;
+    & .container_footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5% 0.5% 0.5% 0.5%;
+    }
+    & .lien_footer {
+        width: 15%;
+        display: flex;
+        justify-content: center;
+    }
 }
