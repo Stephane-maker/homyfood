@@ -111,9 +111,13 @@ button {
 }
 
 .anim {
-    border: 1px solid black;
     display: flex;
     justify-content: flex-end;
-    width: 100%;
-    height: 100%;
+}
+
+.container_anim {
+    display: flex;
+    position: relative;
+    left: 80%;
+    bottom: 3rem;
 }

@@ -393,14 +393,19 @@ button {
   font-size: 2rem; }
 
 .anim {
-  border: 1px solid black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
-          justify-content: flex-end;
-  width: 100%;
-  height: 100%; }
+          justify-content: flex-end; }
+
+.container_anim {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  left: 80%;
+  bottom: 3rem; }
 
 /*# sourceMappingURL=style.css.map */
