@@ -3,6 +3,10 @@
 @import "variable_menu.scss";
 body {
     @include elementencolonne();
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
     font-family: 'DancingScript-VariableFont_wght', Arial, sans-serif;
 }
 
@@ -13,6 +17,30 @@ body {
     &--note_enchanter {
         font-family: 'PatrickHand-Regular', arial, sans-serif;
     }
+    &--palette {
+        background-color: $couleur_principal;
+        margin: auto;
+        width: auto;
+        height: auto;
+        margin-bottom: 5%;
+    }
+}
+
+.titre_nav {
+    background-color: $couleur_nav;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 5%;
+    display: flex;
+    @include elementcentre();
+}
+
+nav {
+    font-family: 'KronaOne-Regular', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: $color_titre;
 }
 
 .background {
@@ -23,9 +51,6 @@ body {
     }
     &--delice_papille {
         font-family: 'BalsamiqSans-BoldItalic';
-        background-color: $couleur_principal;
-    }
-    &--palette {
         background-color: $couleur_principal;
     }
 }
@@ -113,20 +138,6 @@ section,
     }
 }
 
-.position_footer {
-    height: 5%;
-    width: 100%;
-}
-
-footer {
-    display: flex;
-    position: fixed;
-    margin: -8% auto;
-    width: 100%;
-    height: 10%;
-    justify-content: space-between;
-}
-
 .lien_footer {
     margin: -20% auto;
     &--chic_francaise {
@@ -141,4 +152,23 @@ a {
     text-decoration: none;
     color: $black;
     margin: 0 2% 0 2%;
+}
+
+.position_footer {
+    position: fixed;
+    width: 100%;
+    margin-top: -20%;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: $couleur_nav;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'KronaOne-Regular', Arial, Helvetica, sans-serif;
+    & a {
+        color: $color_titre;
+    }
 }
