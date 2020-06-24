@@ -42,21 +42,35 @@ body {
       flex-wrap: wrap;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
-          justify-content: flex-end;
-  font-family: 'DancingScript-VariableFont_wght', Arial, sans-serif; }
+          justify-content: flex-end; }
 
-.container {
+.container--note_enchanter {
+  background-color: #ffcccc;
   margin: auto;
   width: auto;
-  height: auto; }
-  .container--note_enchanter {
-    font-family: 'PatrickHand-Regular', arial, sans-serif; }
-  .container--palette {
-    background-color: #ffcccc;
-    margin: auto;
-    width: auto;
-    height: auto;
-    margin-bottom: 5%; }
+  height: auto;
+  margin-bottom: 5%; }
+.container--palette {
+  background-color: #ffcccc;
+  margin: auto;
+  width: auto;
+  height: auto;
+  margin-bottom: 5%; }
+.container--chic_francaise {
+  margin: auto;
+  width: auto;
+  height: auto;
+  margin-bottom: 5%;
+  background-color: #ffcccc; }
+.container--delice_papille {
+  background-color: #ffcccc;
+  margin: auto;
+  width: auto;
+  height: auto;
+  margin-bottom: 5%; }
+
+article {
+  padding: 0 2% 0 2%; }
 
 .titre_nav {
   background-color: #669999;
@@ -77,19 +91,24 @@ body {
 
 nav {
   font-family: 'KronaOne-Regular', Arial, Helvetica, sans-serif;
-  text-transform: uppercase;
-  font-size: 2rem;
   font-weight: bolder;
+  font-size: 1.8rem;
   color: #ffcc33; }
 
-.background {
-  background-color: #ffcccc; }
-  .background--chic_francaise {
-    background-color: #ffcccc;
-    font-family: 'Roboto-Italic', arial, sans-serif; }
-  .background--delice_papille {
-    font-family: 'BalsamiqSans-BoldItalic';
-    background-color: #ffcccc; }
+.titre_page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  font-weight: bolder;
+  font-size: 1.8rem; }
 
 h3 {
   font-size: 1.5rem; }
@@ -202,7 +221,18 @@ section,
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   text-transform: uppercase;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
   .gradient--delice {
     background: -webkit-gradient(linear, left bottom, right bottom, from(#0033cc), to(#0099ff));
     -webkit-text-fill-color: transparent;
@@ -216,13 +246,6 @@ section,
     text-transform: uppercase;
     font-size: 1.5rem; }
 
-.lien_footer {
-  margin: -20% auto; }
-  .lien_footer--chic_francaise {
-    margin: -18% auto; }
-  .lien_footer--delice_papille {
-    margin: -15% auto; }
-
 a {
   text-decoration: none;
   color: black;
@@ -231,7 +254,19 @@ a {
 .position_footer {
   position: fixed;
   width: 100%;
-  margin-top: -20%; }
+  margin-top: -29%; }
+  .position_footer--chic_francaise {
+    position: fixed;
+    width: 100%;
+    margin-top: -32%; }
+  .position_footer--delice_papille {
+    position: fixed;
+    width: 100%;
+    margin-top: -27.5%; }
+  .position_footer--note_enchantee {
+    position: fixed;
+    width: 100%;
+    margin-top: -38.5%; }
 
 footer {
   width: 100%;

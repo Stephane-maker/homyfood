@@ -20,3 +20,15 @@
     text-transform: uppercase;
     font-size: 1.5rem;
 }
+
+@mixin margin {
+    margin: auto;
+    width: auto;
+    height: auto;
+    margin-bottom: 5%;
+}
+
+@mixin for_footer {
+    position: fixed;
+    width: 100%;
+}
