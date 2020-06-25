@@ -63,6 +63,41 @@
   to {
     width: 100%;
     border: 1px solid black; } }
+.wiggle:hover {
+  -webkit-animation: wiggle_animation 300ms ease-in-out;
+          animation: wiggle_animation 300ms ease-in-out; }
+@-webkit-keyframes wiggle_animation {
+  from {
+    -webkit-transform: rotate(3deg);
+            transform: rotate(3deg); }
+  25% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  50% {
+    -webkit-transform: rotate(3deg);
+            transform: rotate(3deg); }
+  75% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(3deg);
+            transform: rotate(3deg); } }
+@keyframes wiggle_animation {
+  from {
+    -webkit-transform: rotate(3deg);
+            transform: rotate(3deg); }
+  25% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  50% {
+    -webkit-transform: rotate(3deg);
+            transform: rotate(3deg); }
+  75% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(3deg);
+            transform: rotate(3deg); } }
 body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -90,7 +125,10 @@ body {
   margin: auto;
   width: auto;
   height: auto;
-  margin-bottom: 5%; }
+  margin-bottom: 5%;
+  padding: 0 3% 0 3%; }
+  .container--palette article {
+    width: 100%; }
 .container--chic_francaise {
   margin: auto;
   width: auto;
@@ -286,22 +324,22 @@ a {
   color: black;
   margin: 0 2% 0 2%; }
 
-.position_footer {
+.position_footer--chic_francaise {
   position: fixed;
   width: 100%;
-  margin-top: -29%; }
-  .position_footer--chic_francaise {
-    position: fixed;
-    width: 100%;
-    margin-top: -32%; }
-  .position_footer--delice_papille {
-    position: fixed;
-    width: 100%;
-    margin-top: -27.5%; }
-  .position_footer--note_enchantee {
-    position: fixed;
-    width: 100%;
-    margin-top: -38.5%; }
+  margin-top: -32%; }
+.position_footer--delice_papille {
+  position: fixed;
+  width: 100%;
+  margin-top: -27.5%; }
+.position_footer--note_enchantee {
+  position: fixed;
+  width: 100%;
+  margin-top: -38.5%; }
+.position_footer--palette_gout {
+  position: fixed;
+  width: 100%;
+  margin-top: -19.5%; }
 
 footer {
   width: 100%;

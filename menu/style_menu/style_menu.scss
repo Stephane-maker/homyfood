@@ -18,6 +18,10 @@ body {
     &--palette {
         background-color: $couleur_principal;
         @include margin();
+        padding: 0 3% 0 3%;
+        & article {
+            width: 100%;
+        }
     }
     &--chic_francaise {
         @include margin();
@@ -146,8 +150,6 @@ a {
 }
 
 .position_footer {
-    @include for_footer();
-    margin-top: -29%;
     &--chic_francaise {
         @include for_footer();
         margin-top: -32%;
@@ -159,6 +161,10 @@ a {
     &--note_enchantee {
         @include for_footer();
         margin-top: -38.5%;
+    }
+    &--palette_gout {
+        @include for_footer();
+        margin-top: -19.5%;
     }
 }
 
