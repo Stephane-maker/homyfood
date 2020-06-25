@@ -1,164 +1,156 @@
-.lien_cliquable {
-    &:hover {
-        background-color: $couleur_selection;
-        box-shadow: 2px 2px 2px $black;
-        width: 20%;
-        height: 300px;
-        transform: translateY(90%) translateX(100%) scale(2);
-        transition: transform 330ms ease-in-out;
+    .lien_cliquable {
+        &:hover {
+            background-color: $couleur_selection;
+            box-shadow: 2px 2px 2px $black;
+            width: 20%;
+            height: 300px;
+            transform: translateY(90%) translateX(100%) scale(2);
+            transition: transform 330ms ease-in-out;
+        }
+        &.gauche:hover {
+            transform: translateY(100%) translateX(-100%) scale(2);
+            transition: transform 330ms ease-in-out;
+        }
+        &.haut:hover {
+            transform: translateY(-80%) translateX(110%) scale(2);
+            transition: transform 330ms ease-in-out;
+        }
+        &.centre:hover {
+            transform: translateY(-80%) translateX(-100%) scale(2);
+            transition: transform 330ms ease-in-out;
+        }
     }
-    &.gauche:hover {
-        transform: translateY(100%) translateX(-100%) scale(2);
-        transition: transform 330ms ease-in-out;
-    }
-    &.haut:hover {
-        transform: translateY(-80%) translateX(110%) scale(2);
-        transition: transform 330ms ease-in-out;
-    }
-    &.centre:hover {
-        transform: translateY(-80%) translateX(-100%) scale(2);
-        transition: transform 330ms ease-in-out;
-    }
-}
-
-button {
-    &:hover {
-        background-color: $couleur_selection;
-        animation: button 0.7s steps(3);
-        box-shadow: 2px 2px 2px $black;
-        transform: translateX(0) scale(1);
-        animation: button 0.7s 100ms ease-in-out;
-        @keyframes button {
-            from {
-                transform: rotate(3deg);
+    
+    button {
+        &:hover {
+            .rond {
+                background-color: #FAFAFA;
+                box-shadow: 2px 2px 2px $black;
+                transform: translateX(0) scale(1);
+                animation: suspension 1s 300ms ease-in-out infinite;
+                @keyframes suspension {
+                    from {
+                        background-color: #EEEEEE;
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 25px;
+                    }
+                    25% {
+                        background-color: #BDBDBD;
+                    }
+                    50% {
+                        background-color: 757575;
+                    }
+                    70% {
+                        background-color: #424242;
+                    }
+                    90% {
+                        border: 1px solid black;
+                        background-color: black;
+                        border: white;
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 25px;
+                    }
+                    to {
+                        display: none;
+                    }
+                }
             }
-            30% {
-                transform: rotate(0deg);
+        }
+        &:hover {
+            .rond-2 {
+                background-color: black;
+                box-shadow: 2px 2px 2px $black;
+                transform: translateX(0) scale(1);
+                animation: suspension_2 2s 400ms ease-in-out infinite;
+                @keyframes suspension_2 {
+                    from {
+                        background-color: #EEEEEE;
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 25px;
+                    }
+                    25% {
+                        background-color: #BDBDBD;
+                    }
+                    50% {
+                        background-color: 757575;
+                    }
+                    70% {
+                        background-color: #424242;
+                    }
+                    90% {
+                        border: 1px solid black;
+                        background-color: black;
+                        border: white;
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 25px;
+                    }
+                    100% {
+                        display: none;
+                    }
+                }
             }
-            60% {
-                transform: rotate(3deg);
-            }
-            80% {
-                transform: rotate(0deg);
-            }
-            to {
-                transform: rotate(3deg);
+        }
+        &:hover {
+            .rond-3 {
+                background-color: black;
+                box-shadow: 2px 2px 2px $black;
+                transform: translateX(0) scale(1);
+                animation: suspension_2 3s 500ms ease-in-out infinite;
+                @keyframes suspension_2 {
+                    from {
+                        background-color: #EEEEEE;
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 25px;
+                    }
+                    25% {
+                        background-color: #BDBDBD;
+                    }
+                    50% {
+                        background-color: 757575;
+                    }
+                    70% {
+                        background-color: #424242;
+                    }
+                    90% {
+                        border: 1px solid black;
+                        background-color: black;
+                        border: white;
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 25px;
+                    }
+                    100% {
+                        display: none;
+                    }
+                }
             }
         }
     }
-    &:active {
-        border: 1px 1px 1px $black;
-        transform: scale(0.9);
-    }
-}
-
-button {
-    &:hover {
-        .rond {
-            background-color: #FAFAFA;
-            box-shadow: 2px 2px 2px $black;
-            transform: translateX(0) scale(1);
-            animation: suspension 1s 300ms ease-in-out infinite;
-            @keyframes suspension {
+    
+    .wiggle {
+        &:hover {
+            animation: wiggle_btn 300ms ease-in-out;
+            @keyframes wiggle_btn {
                 from {
-                    background-color: #EEEEEE;
-                    width: 50px;
-                    height: 50px;
-                    border-radius: 25px;
+                    transform: rotate(3deg);
                 }
                 25% {
-                    background-color: #BDBDBD;
+                    transform: rotate(0deg);
                 }
                 50% {
-                    background-color: 757575;
+                    transform: rotate(3deg);
                 }
-                70% {
-                    background-color: #424242;
-                }
-                90% {
-                    border: 1px solid black;
-                    background-color: black;
-                    border: white;
-                    width: 50px;
-                    height: 50px;
-                    border-radius: 25px;
+                75% {
+                    transform: rotate(0deg);
                 }
                 to {
-                    display: none;
+                    transform: rotate(3deg);
                 }
             }
         }
     }
-    &:hover {
-        .rond-2 {
-            background-color: black;
-            box-shadow: 2px 2px 2px $black;
-            transform: translateX(0) scale(1);
-            animation: suspension_2 2s 400ms ease-in-out infinite;
-            @keyframes suspension_2 {
-                from {
-                    background-color: #EEEEEE;
-                    width: 50px;
-                    height: 50px;
-                    border-radius: 25px;
-                }
-                25% {
-                    background-color: #BDBDBD;
-                }
-                50% {
-                    background-color: 757575;
-                }
-                70% {
-                    background-color: #424242;
-                }
-                90% {
-                    border: 1px solid black;
-                    background-color: black;
-                    border: white;
-                    width: 50px;
-                    height: 50px;
-                    border-radius: 25px;
-                }
-                100% {
-                    display: none;
-                }
-            }
-        }
-    }
-    &:hover {
-        .rond-3 {
-            background-color: black;
-            box-shadow: 2px 2px 2px $black;
-            transform: translateX(0) scale(1);
-            animation: suspension_2 3s 500ms ease-in-out infinite;
-            @keyframes suspension_2 {
-                from {
-                    background-color: #EEEEEE;
-                    width: 50px;
-                    height: 50px;
-                    border-radius: 25px;
-                }
-                25% {
-                    background-color: #BDBDBD;
-                }
-                50% {
-                    background-color: 757575;
-                }
-                70% {
-                    background-color: #424242;
-                }
-                90% {
-                    border: 1px solid black;
-                    background-color: black;
-                    border: white;
-                    width: 50px;
-                    height: 50px;
-                    border-radius: 25px;
-                }
-                100% {
-                    display: none;
-                }
-            }
-        }
-    }
-}

@@ -32,53 +32,6 @@
   transition: transform 330ms ease-in-out;
   transition: transform 330ms ease-in-out, -webkit-transform 330ms ease-in-out; }
 
-button:hover {
-  background-color: #ffcccc;
-  -webkit-animation: button 0.7s steps(3);
-          animation: button 0.7s steps(3);
-  -webkit-box-shadow: 2px 2px 2px #000000;
-          box-shadow: 2px 2px 2px #000000;
-  -webkit-transform: translateX(0) scale(1);
-          transform: translateX(0) scale(1);
-  -webkit-animation: button 0.7s 100ms ease-in-out;
-          animation: button 0.7s 100ms ease-in-out; }
-@-webkit-keyframes button {
-  from {
-    -webkit-transform: rotate(3deg);
-            transform: rotate(3deg); }
-  30% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); }
-  60% {
-    -webkit-transform: rotate(3deg);
-            transform: rotate(3deg); }
-  80% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); }
-  to {
-    -webkit-transform: rotate(3deg);
-            transform: rotate(3deg); } }
-@keyframes button {
-  from {
-    -webkit-transform: rotate(3deg);
-            transform: rotate(3deg); }
-  30% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); }
-  60% {
-    -webkit-transform: rotate(3deg);
-            transform: rotate(3deg); }
-  80% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); }
-  to {
-    -webkit-transform: rotate(3deg);
-            transform: rotate(3deg); } }
-button:active {
-  border: 1px 1px 1px #000000;
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9); }
-
 button:hover .rond {
   background-color: #FAFAFA;
   -webkit-box-shadow: 2px 2px 2px #000000;
@@ -208,6 +161,41 @@ button:hover .rond-3 {
     border-radius: 25px; }
   100% {
     display: none; } }
+.wiggle:hover {
+  -webkit-animation: wiggle_btn 300ms ease-in-out;
+          animation: wiggle_btn 300ms ease-in-out; }
+@-webkit-keyframes wiggle_btn {
+  from {
+    -webkit-transform: rotate(3deg);
+            transform: rotate(3deg); }
+  25% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  50% {
+    -webkit-transform: rotate(3deg);
+            transform: rotate(3deg); }
+  75% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(3deg);
+            transform: rotate(3deg); } }
+@keyframes wiggle_btn {
+  from {
+    -webkit-transform: rotate(3deg);
+            transform: rotate(3deg); }
+  25% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  50% {
+    -webkit-transform: rotate(3deg);
+            transform: rotate(3deg); }
+  75% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(3deg);
+            transform: rotate(3deg); } }
 @font-face {
   font-family: 'Lobster-Regular';
   src: url("../polices/lobster/Lobster-Regular.eot");

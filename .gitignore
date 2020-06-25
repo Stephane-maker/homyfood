@@ -2,28 +2,12 @@ consigne.txt
 
 
 3) Faire le responsive
-4) Faire le titre
 5) Retaper les photos sous photoshop
 6) adapter le site pour safari
-7)relier tout les footer au page metion legal et contactez nous
-8)Refaire tout le site en fonction de la maquette 
+7)Corriger les bugue d'underscore
 
 -----------------------------------------------------
-- une page d’accueil avec le logo de l’entreprise, un espace contenant les 4 menus,
-une section “prochainement” et les rubriques « Mention légales » et « Contactez-nous » ;
 
-- 4 pages contenant chacune le menu d’un restaurant. Au clic sur le menu sur la page
-d’accueil, l’utilisateur est redirigé vers la page du menu ;
-
-- au clic sur “Mentions légales”, une nouvelle page s’ouvre ;
-
-- au clic sur “Contactez-nous”, un renvoi vers une adresse mail est effectué ;
-
-- le header (contenant le logo de l’entreprise) et le footer (contenant “Mentions
-légales” et “Contactez-nous) sont présents sur toutes les pages ;
-
-- le footer doit rester visible même si l’on scrolle.
-Des effets graphiques :
 
 - Pour chaque item de type menu, une animation qui fait un zoom sur l'image devra
 être intégrée, avec un effet de fondu (réduire l'opacité) sans faire grossir le cadre
@@ -33,7 +17,6 @@ initial ;
 progressivement. Ils pourront soit s’agiter comme quand quelqu’un tape un
 nouveau message, soit apparaître progressivement ;
 
-- les boutons “contact” et “mentions légales” devront se secouer (effet wiggle) ;
 
 - les titres représentant les catégories entrées, plats, desserts devront être soulignés
 de gauche à droit au survol de la souris.
