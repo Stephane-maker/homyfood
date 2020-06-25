@@ -28,6 +28,41 @@
   src: url("../style_menu/polices_menu/krona/KronaOne-Regular.eot?#iefix") format("embedded-opentype"), url("../style_menu/polices_menu/krona/KronaOne-Regular.ttf") format("truetype"), url("../style_menu/polices_menu/krona/KronaOne-Regular.svg#") format("svg");
   font-weight: normal;
   font-style: normal; }
+.underline:hover .underline_decoration {
+  -webkit-animation: underline_decoration 600ms linear;
+          animation: underline_decoration 600ms linear; }
+@-webkit-keyframes underline_decoration {
+  from {
+    border: 1px solid black;
+    width: 5%; }
+  25% {
+    width: 25%;
+    border: 1px solid black; }
+  50% {
+    width: 50%;
+    border: 1px solid black; }
+  75% {
+    width: 75%;
+    border: 1px solid black; }
+  to {
+    width: 100%;
+    border: 1px solid black; } }
+@keyframes underline_decoration {
+  from {
+    border: 1px solid black;
+    width: 5%; }
+  25% {
+    width: 25%;
+    border: 1px solid black; }
+  50% {
+    width: 50%;
+    border: 1px solid black; }
+  75% {
+    width: 75%;
+    border: 1px solid black; }
+  to {
+    width: 100%;
+    border: 1px solid black; } }
 body {
   display: -webkit-box;
   display: -ms-flexbox;
