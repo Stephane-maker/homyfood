@@ -46,12 +46,6 @@ button:hover .rond {
     width: 50px;
     height: 50px;
     border-radius: 25px; }
-  25% {
-    background-color: #BDBDBD; }
-  50% {
-    background-color: 757575; }
-  70% {
-    background-color: #424242; }
   90% {
     border: 1px solid black;
     background-color: black;
@@ -67,12 +61,6 @@ button:hover .rond {
     width: 50px;
     height: 50px;
     border-radius: 25px; }
-  25% {
-    background-color: #BDBDBD; }
-  50% {
-    background-color: 757575; }
-  70% {
-    background-color: #424242; }
   90% {
     border: 1px solid black;
     background-color: black;
@@ -162,9 +150,9 @@ button:hover .rond-3 {
   100% {
     display: none; } }
 .wiggle:hover {
-  -webkit-animation: wiggle_btn 300ms ease-in-out;
-          animation: wiggle_btn 300ms ease-in-out; }
-@-webkit-keyframes wiggle_btn {
+  -webkit-animation: wiggle_animation 300ms ease-in-out;
+          animation: wiggle_animation 300ms ease-in-out; }
+@-webkit-keyframes wiggle_animation {
   from {
     -webkit-transform: rotate(3deg);
             transform: rotate(3deg); }
@@ -180,7 +168,7 @@ button:hover .rond-3 {
   to {
     -webkit-transform: rotate(3deg);
             transform: rotate(3deg); } }
-@keyframes wiggle_btn {
+@keyframes wiggle_animation {
   from {
     -webkit-transform: rotate(3deg);
             transform: rotate(3deg); }

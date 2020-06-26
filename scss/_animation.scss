@@ -35,15 +35,6 @@
                         height: 50px;
                         border-radius: 25px;
                     }
-                    25% {
-                        background-color: #BDBDBD;
-                    }
-                    50% {
-                        background-color: 757575;
-                    }
-                    70% {
-                        background-color: #424242;
-                    }
                     90% {
                         border: 1px solid black;
                         background-color: black;
@@ -134,8 +125,8 @@
     
     .wiggle {
         &:hover {
-            animation: wiggle_btn 300ms ease-in-out;
-            @keyframes wiggle_btn {
+            animation: wiggle_animation 300ms ease-in-out;
+            @keyframes wiggle_animation {
                 from {
                     transform: rotate(3deg);
                 }
