@@ -1,0 +1,44 @@
+@import "_mixin_responsive.scss";
+
+h1{
+    font-size: 2rem;
+}
+.container{
+    display: block;
+    width: 100%;
+}
+.lien_cliquable{
+    display: block;
+    width: 100%;
+    height: 20%;
+    margin-top: 2%;
+    text-align: center;
+    @include no_animation();
+    &.gauche:hover {
+        @include no_animation();
+    }
+    &.haut:hover {
+        @include no_animation();
+    }
+    &.centre:hover {
+        @include no_animation();
+    }
+    &:hover{
+        @include no_animation();
+    }
+}
+button{
+    width: auto;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+
+footer{
+    height: 40px;
+    position: fixed;
+    margin-top: 22%;
+    & .lien_footer{
+        width: 45%;
+        font-size: 0.8rem;
+    }
+}
