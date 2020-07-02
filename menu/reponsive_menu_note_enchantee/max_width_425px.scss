@@ -1,0 +1,27 @@
+.titre_page{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.separateur{
+    display: none;
+}
+.container{
+    &--note_enchanter{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 10%;
+    }
+}
+article{
+    font-size: 1.2rem;
+}
+.position_footer--note_enchantee{
+    margin-top: -80%;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    margin-top: -90%;
+    height: 40px;
+    margin-left: -2%;
+}

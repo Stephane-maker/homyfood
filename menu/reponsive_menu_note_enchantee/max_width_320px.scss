@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.container{
+    &--note_enchanter{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20%;
+    }
+}
+
+h1,.logo{
+    font-size: 1.5rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.titre_page{
+    margin-bottom: 2%;
+}
+
+nav article{
+    font-size: 2rem;
+}
+
+.separateur{
+    display: none;
+}
+
+article{
+    font-size: 1.2rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+footer{
+    margin-top: -18%;
+    height: 40px;
+    & .wiggle{
+        font-size: 0.8rem;
+    }
+}
