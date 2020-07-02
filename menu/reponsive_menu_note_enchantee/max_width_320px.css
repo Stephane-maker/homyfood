@@ -1,0 +1,50 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center; }
+
+.container--note_enchanter {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20%; }
+
+h1, .logo {
+  font-size: 1.5rem;
+  margin-top: 2%;
+  margin-bottom: 2%; }
+
+.titre_page {
+  margin-bottom: 2%; }
+
+nav article {
+  font-size: 2rem; }
+
+.separateur {
+  display: none; }
+
+article {
+  font-size: 1.2rem;
+  margin-top: 2%;
+  margin-bottom: 2%; }
+
+footer {
+  margin-top: -18%;
+  height: 40px; }
+  footer .wiggle {
+    font-size: 0.8rem; }
+
+/*# sourceMappingURL=max_width_320px.css.map */

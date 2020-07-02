@@ -1,0 +1,24 @@
+.titre_nav article{
+    font-size: 2.5rem;
+}
+.titre_page{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.titre{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.container{
+    &--note_enchanter{
+        width: 80%;
+    }
+}
+
+article{
+    font-size: 1rem;
+}
+footer{
+    margin-top: -32%;
+    height: 40px;
+}
