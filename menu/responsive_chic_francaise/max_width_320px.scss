@@ -1,0 +1,35 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.container{
+    &--chic_francaise{
+        width: 90%;
+        margin-bottom: 15%;
+    }
+}
+article{
+    font-size: 1rem;
+}
+.titre_nav article{
+    font-size: 2rem;
+}
+img{
+    display: none;
+}
+h1{
+    font-size: 1.2rem;
+    margin-top: 5%;
+}
+footer{
+    margin-top: 81%;
+    height: 40px;
+    & a{
+        font-size: 0.8rem;
+    }
+}

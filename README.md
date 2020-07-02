@@ -1,9 +1,13 @@
 # homyfood
 
-1) Faire le responsive
-2) Retaper les photos sous photoshop
-3) Régler l'annimation des 3 points
-4) Animation des item de menu réduire l'oppacité
+
+1) Séparer les anims du responsive
+2) Finir le responsive des deux derniers menues
+3) Adapter le footer en petite résolution
+4) Faire le responsive (le chic a la francaise,le delice des papilles,la palette du gout)
+5) Retaper les photos sous photoshop
+6) Régler l'annimation des 3 points
+7) Animation des item de menu réduire l'oppacité
 
 
 -----------------------------------------------------
