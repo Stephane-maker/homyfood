@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.titre_page{
+    margin-bottom: 2%;
+}
+.container{
+    &--chic_francaise{
+        margin-bottom: 10%;
+    }
+}
+footer{
+    margin-top: 40%;
+}

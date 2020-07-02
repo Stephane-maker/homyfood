@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.container {
+    &--delice_papille {
+        width: 90%;
+        margin-bottom: 10%;
+    }
+}
+
+img {
+    width: 30%;
+}
+
+article {
+    font-size: 1.2rem;
+}
+
+.titre_nav article {
+    font-size: 2rem;
+}
+
+footer {
+    margin-top: 38%;
+}

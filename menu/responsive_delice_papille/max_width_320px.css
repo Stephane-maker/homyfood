@@ -1,0 +1,45 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center; }
+
+img {
+  display: none; }
+
+.container--delice_papille {
+  width: 90%;
+  margin-bottom: 15%; }
+
+.gradient--delice {
+  font-size: 1rem; }
+
+.titre_page {
+  margin-bottom: 2%; }
+
+article {
+  font-size: 0.9rem; }
+
+.titre_nav article {
+  font-size: 2rem; }
+
+footer {
+  margin-top: 63%;
+  height: 40px; }
+  footer .wiggle {
+    font-size: 0.8rem; }
+
+/*# sourceMappingURL=max_width_320px.css.map */
