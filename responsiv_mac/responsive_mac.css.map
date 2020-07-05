@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,IAAK;EACD,gBAAgB,EAAE,GAAG",
-"sources": ["responsive_mac.scss"],
-"names": [],
-"file": "responsive_mac.css"
-}
