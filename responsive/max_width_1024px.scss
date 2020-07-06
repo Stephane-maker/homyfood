@@ -1,85 +1,78 @@
 @import "_mixin_responsive.scss";
-@import "variable_responsive/_variable_responsive.scss";
-@import "mixin_responsive/_mixin_responsive.scss";
-nav {
+@import "variable_responsive/variable_responsive.scss";
+.container {
+    display: block;
     width: 100%;
-    height: 100px;
-    background-color: $couleur_principal;
+    margin-top: 2%;
 }
 
 body {
-    @include elementcenter();
+    width: auto;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-direction: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
-h1 {
-    font-size: 3rem;
-    color: $color_titre;
-    text-transform: uppercase;
+nav {
+    width: 100%;
+    background-color: $couleur_principal;
+    height: 80px;
 }
 
 .lien_cliquable {
-    width: 20%;
-    height: 400px;
-    color: $black;
-    border: none;
-    margin: 5% 0 5% 0;
+    display: block;
+    width: 100%;
+    margin-top: 5%;
+    text-align: center;
     background-color: $couleur_selection;
 }
 
-.menu_papille {
-    color: #0099ff;
+a {
+    text-decoration: none;
 }
 
-.menu_chic {
-    color: #cc6600;
+button {
+    width: auto;
+    height: 50px;
+    color: $color_titre;
+    background-color: $couleur_principal;
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    border-radius: 1rem;
+    margin: 5% 0 5% 0;
+    font-size: 2rem;
 }
 
-.menu_palette {
-    color: #66cc66;
-}
-
-.container {
-    display: flex;
-    width: 90%;
-    justify-content: space-around;
+.for_footer {
+    position: absolute;
+    left: 0;
+    bottom: 20px;
 }
 
 footer {
-    background-color: $couleur_principal;
-    position: fixed;
     width: 100%;
-    height: 100px;
+    border: 1px solid black;
     & a {
         color: $color_titre;
         text-decoration: none;
     }
     & .container_footer {
         display: flex;
+        width: 100%;
+        position: fixed;
         justify-content: space-between;
-        padding: 0.5% 0.5% 0.5% 0.5%;
+        font-family: 'KronaOne-Regular', Arial, Helvetica, sans-serif;
+        background-color: $couleur_principal;
     }
     & .lien_footer {
         width: 15%;
         display: flex;
         justify-content: center;
     }
-}
-
-button {
-    width: 20%;
-    height: 50px;
-    background-color: $couleur_principal;
-    color: $color_titre;
-}
-
-.anim {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.container_anim {
-    display: flex;
-    position: relative;
-    left: 80%;
-    bottom: 3rem;
 }
