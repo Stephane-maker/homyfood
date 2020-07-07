@@ -11,7 +11,7 @@ nav {
 
 body {
     @include elementcentre();
-    font-family: 'Lobster-Regular';
+    font-family: 'Lobster-Regular', Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -80,20 +80,26 @@ h1 {
     justify-content: space-around;
 }
 
+.for_footer {
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+}
+
 footer {
-    background-color: $couleur_principal;
-    position: fixed;
     width: 100%;
-    height: 100px;
+    border: 1px solid black;
     & a {
         color: $color_titre;
         text-decoration: none;
     }
     & .container_footer {
         display: flex;
+        width: 100%;
+        position: fixed;
         justify-content: space-between;
-        padding: 0.5% 0.5% 0.5% 0.5%;
         font-family: 'KronaOne-Regular', Arial, Helvetica, sans-serif;
+        background-color: $couleur_principal;
     }
     & .lien_footer {
         width: 15%;
