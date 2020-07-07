@@ -1,48 +1,75 @@
-body{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
-
-.container{
-    &--note_enchanter{
-        width: 90%;
+@import "variable/variable";
+.container {
+    &--note_enchanter {
+        width: 95%;
         margin: auto;
         margin-bottom: 20%;
     }
 }
 
-h1,.logo{
+h1,
+.logo {
     font-size: 1.5rem;
     margin-top: 2%;
     margin-bottom: 2%;
 }
 
-.titre_page{
+img {
+    width: 10%;
+}
+
+.titre_page {
     margin-bottom: 2%;
 }
 
-nav article{
+nav article {
     font-size: 2rem;
 }
 
-.separateur{
+.separateur {
     display: none;
 }
 
-article{
-    font-size: 1.2rem;
+article {
+    font-size: 1rem;
     margin-top: 2%;
     margin-bottom: 2%;
 }
 
-footer{
+footer {
     margin-top: -18%;
     height: 40px;
-    & .wiggle{
+    & .wiggle {
         font-size: 0.8rem;
+    }
+}
+
+.for_footer {
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+}
+
+footer {
+    width: 100%;
+    & a {
+        color: $color_titre;
+        text-decoration: none;
+    }
+    & .container_footer {
+        display: flex;
+        width: 100%;
+        height: 60px;
+        font-size: 0.9rem;
+        position: fixed;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'KronaOne-Regular', Arial, Helvetica, sans-serif;
+        background-color: $couleur_principal;
+    }
+    & .lien_footer {
+        width: 50%;
+        display: flex;
+        justify-content: center;
     }
 }

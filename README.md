@@ -1,13 +1,11 @@
 # homyfood
 
 
-1) Séparer les anims du responsive
-2) Finir le responsive des deux derniers menues
-3) Faire le responsive (le chic a la francaise,le delice des papilles,la palette du gout)
-4) Régler l'annimation des 3 points
-5) Animation des item de menu réduire l'oppacité
-6) Adapter le footer en petite résolution
-7) !!!!!!! Enfin faire photoshop sur les images bordel !!!!!!!!!
+1) Finir le responsive des deux derniers menues
+2) Faire le responsive (le chic a la francaise,le delice des papilles,la palette du gout)
+3) Régler l'annimation des 3 points
+4) Animation des item de menu réduire l'oppacité
+5) !!!!!!! Enfin faire photoshop sur les images bordel !!!!!!!!!
 
 
 -----------------------------------------------------

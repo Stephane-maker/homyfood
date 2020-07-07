@@ -1,24 +1,55 @@
-.titre_nav article{
+@import "variable/variable";
+.titre_nav article {
     font-size: 2.5rem;
 }
-.titre_page{
+
+.titre_page {
     margin-top: 2%;
     margin-bottom: 2%;
 }
-.titre{
+
+.titre {
     margin-top: 2%;
     margin-bottom: 2%;
 }
-.container{
-    &--note_enchanter{
-        width: 80%;
+
+.container {
+    &--note_enchanter {
+        width: 95%;
+        margin-bottom: 15%;
     }
 }
 
-article{
-    font-size: 1rem;
+article {
+    font-size: 1.5rem;
 }
-footer{
-    margin-top: -32%;
-    height: 40px;
+
+.for_footer {
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+}
+
+footer {
+    width: 100%;
+    & a {
+        color: $color_titre;
+        text-decoration: none;
+    }
+    & .container_footer {
+        display: flex;
+        width: 100%;
+        height: 60px;
+        font-size: 0.9rem;
+        position: fixed;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'KronaOne-Regular', Arial, Helvetica, sans-serif;
+        background-color: $couleur_principal;
+    }
+    & .lien_footer {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+    }
 }
