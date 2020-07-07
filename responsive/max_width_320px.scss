@@ -1,44 +1,120 @@
-@import "_mixin_responsive.scss";
+@import "mixin_responsive/_mixin_responsive.scss";
+@import "variable_responsive/variable_responsive.scss";
+@import "police/police.scss";
+.container {
+    display: block;
+    width: 100%;
+    margin-top: 2%;
+}
 
-h1{
+body {
+    width: auto;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-direction: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: 'Lobster-Regular', Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'KronaOne-Regular', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+nav {
+    width: 100%;
+    background-color: $couleur_principal;
+    height: 80px;
+    @include elementcenter();
+}
+
+.lien_cliquable {
+    display: block;
+    width: 100%;
+    margin-top: 5%;
+    text-align: center;
+    background-color: $couleur_selection;
+    color: black;
+    &.gauche {
+        background-color: $couleur_lien;
+        font-family: 'Aladin-Regular';
+        height: 150px;
+        font-size: 1.5rem;
+    }
+    &.haut {
+        font-family: 'Arizonia-Regular';
+        background-color: $couleur_lien;
+        height: 150px;
+        font-size: 1.5rem;
+    }
+    &.centre {
+        font-family: 'KaushanScript-Regular';
+        background-color: $couleur_lien;
+        height: 150px;
+        font-size: 1.5rem;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    width: auto;
+    height: 50px;
+    color: $color_titre;
+    background-color: $couleur_principal;
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    border-radius: 1rem;
+    margin: 5% 0 5% 0;
     font-size: 2rem;
 }
-.container{
-    display: block;
-    width: 100%;
-}
-.lien_cliquable{
-    display: block;
-    width: 100%;
-    height: 20%;
-    margin-top: 2%;
-    text-align: center;
-    @include no_animation();
-    &.gauche:hover {
-        @include no_animation();
-    }
-    &.haut:hover {
-        @include no_animation();
-    }
-    &.centre:hover {
-        @include no_animation();
-    }
-    &:hover{
-        @include no_animation();
-    }
-}
-button{
-    width: auto;
-    margin-top: 2%;
-    margin-bottom: 10%;
+
+.for_footer {
+    position: absolute;
+    left: 0;
+    bottom: 20px;
 }
 
-footer{
-    height: 40px;
-    position: fixed;
-    margin-top: 22%;
-    & .lien_footer{
-        width: 45%;
-        font-size: 0.8rem;
+footer {
+    width: 100%;
+    & a {
+        color: $color_titre;
+        text-decoration: none;
     }
+    & .container_footer {
+        display: flex;
+        width: 100%;
+        font-size: 0.8rem;
+        position: fixed;
+        justify-content: space-between;
+        font-family: 'KronaOne-Regular', Arial, Helvetica, sans-serif;
+        background-color: $couleur_principal;
+    }
+    & .lien_footer {
+        width: 45%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.gradient_chic {
+    background: -webkit-gradient(linear, left bottom, right bottom, from(#cc9900), to(#9966ff));
+    @include degrader();
+}
+
+.gradient_papille {
+    background: -webkit-gradient(linear, left bottom, right bottom, from(#0033cc), to(#0099ff));
+    @include degrader();
+}
+
+.gradient_palette {
+    background: -webkit-gradient(linear, left bottom, right bottom, from(#339933), to(#ccff66));
+    @include degrader();
 }

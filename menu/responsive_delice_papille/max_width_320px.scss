@@ -1,19 +1,11 @@
-body {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
-
+@import "variable/variable.scss";
 img {
     display: none;
 }
 
 .container {
     &--delice_papille {
-        width: 90%;
+        width: 95%;
         margin-bottom: 15%;
     }
 }
@@ -29,17 +21,39 @@ img {
 }
 
 article {
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 .titre_nav article {
     font-size: 2rem;
 }
 
+.for_footer {
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+}
+
 footer {
-    margin-top: 63%;
-    height: 40px;
-    & .wiggle {
-        font-size: 0.8rem;
+    width: 100%;
+    & a {
+        color: $color_titre;
+        text-decoration: none;
+    }
+    & .container_footer {
+        display: flex;
+        width: 100%;
+        height: 40px;
+        font-size: 0.7rem;
+        position: fixed;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'KronaOne-Regular', Arial, Helvetica, sans-serif;
+        background-color: $couleur_principal;
+    }
+    & .lien_footer {
+        width: 40%;
+        display: flex;
+        justify-content: center;
     }
 }

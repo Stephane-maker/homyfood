@@ -1,0 +1,16 @@
+.container {
+    &--palette {
+        margin-bottom: 15%;
+    }
+}
+
+.for_footer {
+    bottom: 60px;
+}
+
+footer {
+    & .lien_footer {
+        font-size: 1rem;
+        width: 20%;
+    }
+}

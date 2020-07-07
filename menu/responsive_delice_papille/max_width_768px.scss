@@ -1,12 +1,4 @@
-body {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
-
+@import "variable/variable.scss";
 .container {
     &--delice_papille {
         width: 90%;
@@ -26,6 +18,32 @@ article {
     font-size: 2rem;
 }
 
+.for_footer {
+    position: absolute;
+    left: 0;
+    bottom: 60px;
+}
+
 footer {
-    margin-top: 38%;
+    width: 100%;
+    & a {
+        color: $color_titre;
+        text-decoration: none;
+    }
+    & .container_footer {
+        display: flex;
+        width: 100%;
+        height: 60px;
+        font-size: 0.9rem;
+        position: fixed;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'KronaOne-Regular', Arial, Helvetica, sans-serif;
+        background-color: $couleur_principal;
+    }
+    & .lien_footer {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+    }
 }

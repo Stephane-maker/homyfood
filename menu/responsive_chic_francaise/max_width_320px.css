@@ -1,22 +1,3 @@
-body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center; }
-
 .container--chic_francaise {
   width: 90%;
   margin-bottom: 15%; }
@@ -34,10 +15,39 @@ h1 {
   font-size: 1.2rem;
   margin-top: 5%; }
 
+.for_footer {
+  position: absolute;
+  left: 0;
+  bottom: 40px; }
+
 footer {
-  margin-top: 81%;
-  height: 40px; }
+  width: 100%; }
   footer a {
-    font-size: 0.8rem; }
+    color: #ffcc33;
+    text-decoration: none; }
+  footer .container_footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: 'KronaOne-Regular', Arial, Helvetica, sans-serif;
+    background-color: #669999; }
+  footer .lien_footer {
+    width: 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 0.7rem; }
 
 /*# sourceMappingURL=max_width_320px.css.map */

@@ -5,3 +5,52 @@
     align-items: center;
     align-content: center;
 }
+
+@mixin elementcentre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 5rem;
+}
+
+@mixin cliencliquable {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    display: flex;
+}
+
+@mixin button {
+    border-radius: 1rem;
+    outline: none;
+    margin: 0 0 5% 0;
+    font-size: 2rem;
+}
+
+@mixin button_tv {
+    border-radius: 2rem;
+    outline: none;
+    margin: 0 0 5% 0;
+    font-size: 4rem;
+}
+
+@mixin degrader {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5rem;
+}
+
+@mixin text_majuscule {
+    text-transform: uppercase;
+    font-size: 2rem;
+}

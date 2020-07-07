@@ -10,13 +10,45 @@
   margin-bottom: 2%; }
 
 .container--note_enchanter {
-  width: 80%; }
+  width: 95%;
+  margin-bottom: 15%; }
 
 article {
-  font-size: 1rem; }
+  font-size: 1.5rem; }
+
+.for_footer {
+  position: absolute;
+  left: 0;
+  bottom: 50px; }
 
 footer {
-  margin-top: -32%;
-  height: 40px; }
+  width: 100%; }
+  footer a {
+    color: #ffcc33;
+    text-decoration: none; }
+  footer .container_footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    font-size: 0.9rem;
+    position: fixed;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: 'KronaOne-Regular', Arial, Helvetica, sans-serif;
+    background-color: #669999; }
+  footer .lien_footer {
+    width: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
 
 /*# sourceMappingURL=max_width_768px.css.map */
