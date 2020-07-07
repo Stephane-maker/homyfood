@@ -4,20 +4,24 @@
             box-shadow: 2px 2px 2px $black;
             width: 20%;
             height: 300px;
-            transform: translateY(90%) translateX(100%) scale(2);
+            transform: translateY(90%) translateX(100%) scale(1.5);
             transition: transform 330ms ease-in-out;
+            background-color: #FCE4EC;
         }
         &.gauche:hover {
-            transform: translateY(100%) translateX(-100%) scale(2);
+            transform: translateY(100%) translateX(-100%) scale(1.5);
             transition: transform 330ms ease-in-out;
+            background-color: white;
         }
         &.haut:hover {
-            transform: translateY(-80%) translateX(110%) scale(2);
+            transform: translateY(-80%) translateX(110%) scale(1.5);
             transition: transform 330ms ease-in-out;
+            background-color: white;
         }
         &.centre:hover {
-            transform: translateY(-80%) translateX(-100%) scale(2);
+            transform: translateY(-80%) translateX(-100%) scale(1.5);
             transition: transform 330ms ease-in-out;
+            background-color: white;
         }
     }
     
@@ -27,7 +31,8 @@
                 background-color: #FAFAFA;
                 box-shadow: 2px 2px 2px $black;
                 transform: translateX(0) scale(1);
-                animation: suspension 1s 300ms ease-in-out infinite;
+                animation: suspension 3s 600ms ease-in-out;
+                margin: 2% 2% 2% 2%;
                 @keyframes suspension {
                     from {
                         background-color: #EEEEEE;
@@ -35,7 +40,7 @@
                         height: 50px;
                         border-radius: 25px;
                     }
-                    90% {
+                    50% {
                         border: 1px solid black;
                         background-color: black;
                         border: white;
@@ -43,8 +48,23 @@
                         height: 50px;
                         border-radius: 25px;
                     }
-                    to {
-                        display: none;
+                    90% {
+                        border: 1px solid black;
+                        background-color: white;
+                        border: white;
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 25px;
+                        box-shadow: none;
+                    }
+                    100% {
+                        border: 1px solid black;
+                        background-color: white;
+                        border: white;
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 25px;
+                        box-shadow: none;
                     }
                 }
             }
@@ -54,7 +74,8 @@
                 background-color: black;
                 box-shadow: 2px 2px 2px $black;
                 transform: translateX(0) scale(1);
-                animation: suspension_2 2s 400ms ease-in-out infinite;
+                animation: suspension_2 3s 900ms ease-in-out;
+                margin: 2% 2% 2% 2%;
                 @keyframes suspension_2 {
                     from {
                         background-color: #EEEEEE;
@@ -62,16 +83,7 @@
                         height: 50px;
                         border-radius: 25px;
                     }
-                    25% {
-                        background-color: #BDBDBD;
-                    }
                     50% {
-                        background-color: 757575;
-                    }
-                    70% {
-                        background-color: #424242;
-                    }
-                    90% {
                         border: 1px solid black;
                         background-color: black;
                         border: white;
@@ -79,8 +91,23 @@
                         height: 50px;
                         border-radius: 25px;
                     }
+                    90% {
+                        border: 1px solid black;
+                        background-color: white;
+                        border: white;
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 25px;
+                        box-shadow: none;
+                    }
                     100% {
-                        display: none;
+                        border: 1px solid black;
+                        background-color: white;
+                        border: white;
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 25px;
+                        box-shadow: none;
                     }
                 }
             }
@@ -90,7 +117,8 @@
                 background-color: black;
                 box-shadow: 2px 2px 2px $black;
                 transform: translateX(0) scale(1);
-                animation: suspension_2 3s 500ms ease-in-out infinite;
+                animation: suspension_2 3s 1200ms ease-in-out;
+                margin: 2% 2% 2% 2%;
                 @keyframes suspension_2 {
                     from {
                         background-color: #EEEEEE;
@@ -98,16 +126,7 @@
                         height: 50px;
                         border-radius: 25px;
                     }
-                    25% {
-                        background-color: #BDBDBD;
-                    }
                     50% {
-                        background-color: 757575;
-                    }
-                    70% {
-                        background-color: #424242;
-                    }
-                    90% {
                         border: 1px solid black;
                         background-color: black;
                         border: white;
@@ -115,8 +134,23 @@
                         height: 50px;
                         border-radius: 25px;
                     }
+                    90% {
+                        border: 1px solid black;
+                        background-color: white;
+                        border: white;
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 25px;
+                        box-shadow: none;
+                    }
                     100% {
-                        display: none;
+                        border: 1px solid black;
+                        background-color: white;
+                        border: white;
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 25px;
+                        box-shadow: none;
                     }
                 }
             }
