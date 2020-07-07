@@ -1,22 +1,45 @@
-body{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
-.container{
-    &--chic_francaise{
+@import "variable/variable.scss";
+.container {
+    &--chic_francaise {
         width: 90%;
+        margin-bottom: 10%;
     }
 }
-.titre_page{
+
+.titre_page {
     margin-bottom: 2%;
 }
-img{
+
+img {
     width: 30%;
 }
-footer{
-    margin-top: 45%;
+
+.for_footer {
+    position: absolute;
+    left: 0;
+    bottom: 60px;
+}
+
+footer {
+    width: 100%;
+    & a {
+        color: $color_titre;
+        text-decoration: none;
+    }
+    & .container_footer {
+        display: flex;
+        width: 100%;
+        height: 60px;
+        font-size: 0.9rem;
+        position: fixed;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'KronaOne-Regular', Arial, Helvetica, sans-serif;
+        background-color: $couleur_principal;
+    }
+    & .lien_footer {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+    }
 }
