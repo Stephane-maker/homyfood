@@ -1,0 +1,140 @@
+@import "variable_responsive/_variable_responsive.scss";
+@import "mixin_responsive/_mixin_responsive.scss";
+@import "animation/_animation.scss";
+@import "police/_police.scss";
+nav {
+    width: 100%;
+    height: 150px;
+    background-color: $couleur_principal;
+    @include navigation();
+}
+
+body {
+    @include elementcentre();
+    font-family: 'Lobster-Regular', Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'KronaOne-Regular', Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+    color: $color_titre;
+    text-transform: uppercase;
+}
+
+.lien_cliquable {
+    @include cliencliquable();
+    width: 30%;
+    height: 900px;
+    color: $black;
+    border: none;
+    margin: 5% 0 5% 0;
+    background-color: $couleur_selection;
+    font-family: 'BalsamiqSans-Bold', arial, sans-serif;
+    & img {
+        width: 15%;
+    }
+    &.gauche {
+        background-color: $couleur_lien;
+        font-family: 'Aladin-Regular';
+    }
+    &.haut {
+        font-family: 'Arizonia-Regular';
+        background-color: $couleur_lien;
+    }
+    &.centre {
+        font-family: 'KaushanScript-Regular';
+        background-color: $couleur_lien;
+    }
+    & p {
+        font-size: 4rem;
+    }
+    & h2 {
+        font-size: 4rem;
+    }
+}
+
+.gradient_chic {
+    background: -webkit-gradient(linear, left bottom, right bottom, from(#cc9900), to(#9966ff));
+    @include degrader();
+}
+
+.gradient_papille {
+    background: -webkit-gradient(linear, left bottom, right bottom, from(#0033cc), to(#0099ff));
+    @include degrader();
+}
+
+.gradient_palette {
+    background: -webkit-gradient(linear, left bottom, right bottom, from(#339933), to(#ccff66));
+    @include degrader();
+}
+
+.menu_papille {
+    color: #0099ff;
+    @include text_majuscule();
+}
+
+.menu_chic {
+    color: #cc6600;
+    @include text_majuscule();
+}
+
+.menu_palette {
+    color: #66cc66;
+    @include text_majuscule();
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+}
+
+.for_footer {
+    position: absolute;
+    left: 0;
+    bottom: 90px;
+}
+
+footer {
+    width: 100%;
+    & a {
+        color: $color_titre;
+        text-decoration: none;
+    }
+    & .container_footer {
+        display: flex;
+        width: 100%;
+        height: 80px;
+        position: fixed;
+        justify-content: space-between;
+        font-family: 'KronaOne-Regular', Arial, Helvetica, sans-serif;
+        background-color: $couleur_principal;
+    }
+    & .lien_footer {
+        width: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+}
+
+button {
+    width: 30%;
+    height: 80px;
+    background-color: $couleur_principal;
+    color: $color_titre;
+    @include button_tv();
+}
+
+.anim {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container_anim {
+    display: flex;
+    position: relative;
+    left: 80%;
+    bottom: 3rem;
+}
