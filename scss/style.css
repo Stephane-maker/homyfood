@@ -36,7 +36,7 @@
   transition: transform 330ms ease-in-out, -webkit-transform 330ms ease-in-out;
   background-color: white; }
 
-button:hover .rond {
+.btn:hover .rond {
   background-color: #FAFAFA;
   -webkit-box-shadow: 2px 2px 2px #000000;
           box-shadow: 2px 2px 2px #000000;
@@ -107,7 +107,7 @@ button:hover .rond {
     border-radius: 25px;
     -webkit-box-shadow: none;
             box-shadow: none; } }
-button:hover .rond-2 {
+.btn:hover .rond-2 {
   background-color: black;
   -webkit-box-shadow: 2px 2px 2px #000000;
           box-shadow: 2px 2px 2px #000000;
@@ -178,7 +178,7 @@ button:hover .rond-2 {
     border-radius: 25px;
     -webkit-box-shadow: none;
             box-shadow: none; } }
-button:hover .rond-3 {
+.btn:hover .rond-3 {
   background-color: black;
   -webkit-box-shadow: 2px 2px 2px #000000;
           box-shadow: 2px 2px 2px #000000;
@@ -401,18 +401,18 @@ h1 {
   -ms-flex-pack: distribute;
       justify-content: space-around; }
 
-.for_footer {
+footer {
   position: absolute;
   left: 0;
   bottom: 20px; }
 
-footer {
+.for_footer {
   width: 100%;
   border: 1px solid black; }
-  footer a {
+  .for_footer a {
     color: #ffcc33;
     text-decoration: none; }
-  footer .container_footer {
+  .for_footer .container_footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -423,7 +423,7 @@ footer {
             justify-content: space-between;
     font-family: 'KronaOne-Regular', Arial, Helvetica, sans-serif;
     background-color: #669999; }
-  footer .lien_footer {
+  .for_footer .lien_footer {
     width: 15%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -432,7 +432,7 @@ footer {
         -ms-flex-pack: center;
             justify-content: center; }
 
-button {
+.btn {
   width: 20%;
   height: 50px;
   background-color: #669999;

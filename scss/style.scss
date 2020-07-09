@@ -80,13 +80,13 @@ h1 {
     justify-content: space-around;
 }
 
-.for_footer {
+footer {
     position: absolute;
     left: 0;
     bottom: 20px;
 }
 
-footer {
+.for_footer {
     width: 100%;
     border: 1px solid black;
     & a {
@@ -108,7 +108,7 @@ footer {
     }
 }
 
-button {
+.btn {
     width: 20%;
     height: 50px;
     background-color: $couleur_principal;
