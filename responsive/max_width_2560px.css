@@ -338,17 +338,17 @@ h1 {
   -ms-flex-pack: distribute;
       justify-content: space-around; }
 
-.for_footer {
+footer {
   position: absolute;
   left: 0;
   bottom: 90px; }
 
-footer {
+.for_footer {
   width: 100%; }
-  footer a {
+  .for_footer a {
     color: #ffcc33;
     text-decoration: none; }
-  footer .container_footer {
+  .for_footer .container_footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -360,7 +360,7 @@ footer {
             justify-content: space-between;
     font-family: 'KronaOne-Regular', Arial, Helvetica, sans-serif;
     background: #579c87; }
-  footer .lien_footer {
+  .for_footer .lien_footer {
     width: 15%;
     display: -webkit-box;
     display: -ms-flexbox;
