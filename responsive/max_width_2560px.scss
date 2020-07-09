@@ -9,10 +9,6 @@ nav {
     @include navigation();
 }
 
-.riendutout {
-    background-color: blue;
-}
-
 body {
     @include elementcentre();
     font-family: 'Lobster-Regular', Arial, Helvetica, sans-serif;
