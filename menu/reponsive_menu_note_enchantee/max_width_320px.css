@@ -67,4 +67,9 @@ footer {
         -ms-flex-pack: center;
             justify-content: center; }
 
+h6,
+.prix {
+  font-size: 1rem;
+  margin: 2% 0 2% 0; }
+
 /*# sourceMappingURL=max_width_320px.css.map */

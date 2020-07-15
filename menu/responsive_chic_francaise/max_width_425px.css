@@ -48,4 +48,12 @@ footer {
             justify-content: center;
     font-size: 0.8rem; }
 
+h2 {
+  font-size: 1.5rem; }
+
+h6,
+.prix {
+  font-size: 1.2rem;
+  margin: 1% 0 1% 0; }
+
 /*# sourceMappingURL=max_width_425px.css.map */

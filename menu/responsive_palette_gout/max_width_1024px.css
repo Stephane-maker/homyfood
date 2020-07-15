@@ -13,4 +13,9 @@ footer .lien_footer {
       -ms-flex-pack: center;
           justify-content: center; }
 
+h6,
+.prix {
+  font-size: 1.5rem;
+  margin: 1% 0 1% 0; }
+
 /*# sourceMappingURL=max_width_1024px.css.map */
