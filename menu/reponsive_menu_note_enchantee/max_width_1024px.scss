@@ -16,7 +16,7 @@
 .for_footer {
     position: absolute;
     left: 0;
-    bottom: 50px;
+    bottom: 40px;
 }
 
 footer {
@@ -28,7 +28,7 @@ footer {
     & .container_footer {
         display: flex;
         width: 100%;
-        height: 60px;
+        height: 40px;
         font-size: 0.9rem;
         position: fixed;
         justify-content: space-between;
@@ -37,7 +37,7 @@ footer {
         background-color: $couleur_principal;
     }
     & .lien_footer {
-        width: 15%;
+        width: 25%;
         display: flex;
         justify-content: center;
     }
