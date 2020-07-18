@@ -1,6 +1,5 @@
 @import "variable.scss";
 @import "minxin.scss";
-@import "animation.scss";
 @import "polices.scss";
 nav {
     width: 100%;
@@ -88,7 +87,6 @@ footer {
 
 .for_footer {
     width: 100%;
-    border: 1px solid black;
     & a {
         color: $color_titre;
         text-decoration: none;
@@ -114,16 +112,16 @@ footer {
     background-color: $couleur_principal;
     color: $color_titre;
     @include button();
+    @include elementcentre();
 }
 
 .anim {
     display: flex;
     justify-content: flex-end;
+    position: absolute;
+    right: 25%;
 }
 
 .container_anim {
     display: flex;
-    position: relative;
-    left: 80%;
-    bottom: 3rem;
 }

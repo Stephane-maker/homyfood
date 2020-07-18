@@ -1,258 +1,3 @@
-.lien_cliquable:hover {
-  background-color: #ffcccc;
-  -webkit-box-shadow: 2px 2px 2px #000000;
-          box-shadow: 2px 2px 2px #000000;
-  width: 20%;
-  height: 300px;
-  -webkit-transform: translateY(90%) translateX(100%) scale(1.5);
-          transform: translateY(90%) translateX(100%) scale(1.5);
-  -webkit-transition: -webkit-transform 330ms ease-in-out;
-  transition: -webkit-transform 330ms ease-in-out;
-  transition: transform 330ms ease-in-out;
-  transition: transform 330ms ease-in-out, -webkit-transform 330ms ease-in-out;
-  background-color: #FCE4EC; }
-.lien_cliquable.gauche:hover {
-  -webkit-transform: translateY(100%) translateX(-100%) scale(1.5);
-          transform: translateY(100%) translateX(-100%) scale(1.5);
-  -webkit-transition: -webkit-transform 330ms ease-in-out;
-  transition: -webkit-transform 330ms ease-in-out;
-  transition: transform 330ms ease-in-out;
-  transition: transform 330ms ease-in-out, -webkit-transform 330ms ease-in-out;
-  background-color: white; }
-.lien_cliquable.haut:hover {
-  -webkit-transform: translateY(-80%) translateX(110%) scale(1.5);
-          transform: translateY(-80%) translateX(110%) scale(1.5);
-  -webkit-transition: -webkit-transform 330ms ease-in-out;
-  transition: -webkit-transform 330ms ease-in-out;
-  transition: transform 330ms ease-in-out;
-  transition: transform 330ms ease-in-out, -webkit-transform 330ms ease-in-out;
-  background-color: white; }
-.lien_cliquable.centre:hover {
-  -webkit-transform: translateY(-80%) translateX(-100%) scale(1.5);
-          transform: translateY(-80%) translateX(-100%) scale(1.5);
-  -webkit-transition: -webkit-transform 330ms ease-in-out;
-  transition: -webkit-transform 330ms ease-in-out;
-  transition: transform 330ms ease-in-out;
-  transition: transform 330ms ease-in-out, -webkit-transform 330ms ease-in-out;
-  background-color: white; }
-
-.btn:hover .rond {
-  background-color: #FAFAFA;
-  -webkit-box-shadow: 2px 2px 2px #000000;
-          box-shadow: 2px 2px 2px #000000;
-  -webkit-transform: translateX(0) scale(1);
-          transform: translateX(0) scale(1);
-  -webkit-animation: suspension 3s 600ms ease-in-out;
-          animation: suspension 3s 600ms ease-in-out;
-  margin: 2% 2% 2% 2%; }
-@-webkit-keyframes suspension {
-  from {
-    background-color: #EEEEEE;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px; }
-  50% {
-    border: 1px solid black;
-    background-color: black;
-    border: white;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px; }
-  90% {
-    border: 1px solid black;
-    background-color: white;
-    border: white;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-    -webkit-box-shadow: none;
-            box-shadow: none; }
-  100% {
-    border: 1px solid black;
-    background-color: white;
-    border: white;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-    -webkit-box-shadow: none;
-            box-shadow: none; } }
-@keyframes suspension {
-  from {
-    background-color: #EEEEEE;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px; }
-  50% {
-    border: 1px solid black;
-    background-color: black;
-    border: white;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px; }
-  90% {
-    border: 1px solid black;
-    background-color: white;
-    border: white;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-    -webkit-box-shadow: none;
-            box-shadow: none; }
-  100% {
-    border: 1px solid black;
-    background-color: white;
-    border: white;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-    -webkit-box-shadow: none;
-            box-shadow: none; } }
-.btn:hover .rond-2 {
-  background-color: black;
-  -webkit-box-shadow: 2px 2px 2px #000000;
-          box-shadow: 2px 2px 2px #000000;
-  -webkit-transform: translateX(0) scale(1);
-          transform: translateX(0) scale(1);
-  -webkit-animation: suspension_2 3s 900ms ease-in-out;
-          animation: suspension_2 3s 900ms ease-in-out;
-  margin: 2% 2% 2% 2%; }
-@-webkit-keyframes suspension_2 {
-  from {
-    background-color: #EEEEEE;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px; }
-  50% {
-    border: 1px solid black;
-    background-color: black;
-    border: white;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px; }
-  90% {
-    border: 1px solid black;
-    background-color: white;
-    border: white;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-    -webkit-box-shadow: none;
-            box-shadow: none; }
-  100% {
-    border: 1px solid black;
-    background-color: white;
-    border: white;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-    -webkit-box-shadow: none;
-            box-shadow: none; } }
-@keyframes suspension_2 {
-  from {
-    background-color: #EEEEEE;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px; }
-  50% {
-    border: 1px solid black;
-    background-color: black;
-    border: white;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px; }
-  90% {
-    border: 1px solid black;
-    background-color: white;
-    border: white;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-    -webkit-box-shadow: none;
-            box-shadow: none; }
-  100% {
-    border: 1px solid black;
-    background-color: white;
-    border: white;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-    -webkit-box-shadow: none;
-            box-shadow: none; } }
-.btn:hover .rond-3 {
-  background-color: black;
-  -webkit-box-shadow: 2px 2px 2px #000000;
-          box-shadow: 2px 2px 2px #000000;
-  -webkit-transform: translateX(0) scale(1);
-          transform: translateX(0) scale(1);
-  -webkit-animation: suspension_2 3s 1200ms ease-in-out;
-          animation: suspension_2 3s 1200ms ease-in-out;
-  margin: 2% 2% 2% 2%; }
-@keyframes suspension_2 {
-  from {
-    background-color: #EEEEEE;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px; }
-  50% {
-    border: 1px solid black;
-    background-color: black;
-    border: white;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px; }
-  90% {
-    border: 1px solid black;
-    background-color: white;
-    border: white;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-    -webkit-box-shadow: none;
-            box-shadow: none; }
-  100% {
-    border: 1px solid black;
-    background-color: white;
-    border: white;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-    -webkit-box-shadow: none;
-            box-shadow: none; } }
-.wiggle:hover {
-  -webkit-animation: wiggle_animation 300ms ease-in-out;
-          animation: wiggle_animation 300ms ease-in-out; }
-@-webkit-keyframes wiggle_animation {
-  from {
-    -webkit-transform: rotate(3deg);
-            transform: rotate(3deg); }
-  25% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); }
-  50% {
-    -webkit-transform: rotate(3deg);
-            transform: rotate(3deg); }
-  75% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); }
-  to {
-    -webkit-transform: rotate(3deg);
-            transform: rotate(3deg); } }
-@keyframes wiggle_animation {
-  from {
-    -webkit-transform: rotate(3deg);
-            transform: rotate(3deg); }
-  25% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); }
-  50% {
-    -webkit-transform: rotate(3deg);
-            transform: rotate(3deg); }
-  75% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); }
-  to {
-    -webkit-transform: rotate(3deg);
-            transform: rotate(3deg); } }
 @font-face {
   font-family: 'Lobster-Regular';
   src: url("../polices/lobster/Lobster-Regular.eot");
@@ -407,8 +152,7 @@ footer {
   bottom: 20px; }
 
 .for_footer {
-  width: 100%;
-  border: 1px solid black; }
+  width: 100%; }
   .for_footer a {
     color: #ffcc33;
     text-decoration: none; }
@@ -440,7 +184,20 @@ footer {
   border-radius: 1rem;
   outline: none;
   margin: 0 0 5% 0;
-  font-size: 2rem; }
+  font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .anim {
   display: -webkit-box;
@@ -448,14 +205,13 @@ footer {
   display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
-          justify-content: flex-end; }
+          justify-content: flex-end;
+  position: absolute;
+  right: 25%; }
 
 .container_anim {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  left: 80%;
-  bottom: 3rem; }
+  display: flex; }
 
 /*# sourceMappingURL=style.css.map */
