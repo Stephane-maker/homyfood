@@ -1,0 +1,53 @@
+.titre_nav {
+  height: 150px;
+  font-size: 3rem; }
+
+.titre_page {
+  font-size: 3rem;
+  margin-bottom: 2%; }
+
+.container--delice_papille {
+  width: 50%; }
+  .container--delice_papille h2,
+  .container--delice_papille h3,
+  .container--delice_papille h6,
+  .container--delice_papille .prix,
+  .container--delice_papille .note_enchante {
+    font-size: 2.5rem; }
+  .container--delice_papille .gradient--delice {
+    font-size: 3rem; }
+
+.for_footer {
+  position: absolute;
+  left: 0;
+  bottom: 100px; }
+
+footer {
+  width: 100%; }
+  footer a {
+    text-decoration: none;
+    font-size: 2.5rem; }
+  footer .container_footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: 'KronaOne-Regular', Arial, Helvetica, sans-serif; }
+  footer .lien_footer {
+    width: 25%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+
+/*# sourceMappingURL=max_width_2560px.css.map */
