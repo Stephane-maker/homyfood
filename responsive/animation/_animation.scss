@@ -33,33 +33,15 @@
             box-shadow: 2px 2px 2px $black;
             transform: translateX(0) scale(1);
             animation: suspension 3s 600ms ease-in-out;
-            margin: 2% 2% 2% 2%;
+            margin: 1% 1% 1% 1%;
             @keyframes suspension {
                 from {
-                    background-color: #EEEEEE;
-                    width: 50px;
-                    height: 50px;
-                    border-radius: 25px;
-                }
-                50% {
-                    border: 1px solid black;
                     background-color: black;
-                    border: white;
                     width: 50px;
                     height: 50px;
                     border-radius: 25px;
-                }
-                90% {
-                    border: 1px solid black;
-                    background-color: white;
-                    border: white;
-                    width: 50px;
-                    height: 50px;
-                    border-radius: 25px;
-                    box-shadow: none;
                 }
                 100% {
-                    border: 1px solid black;
                     background-color: white;
                     border: white;
                     width: 50px;
@@ -76,33 +58,15 @@
             box-shadow: 2px 2px 2px $black;
             transform: translateX(0) scale(1);
             animation: suspension_2 3s 900ms ease-in-out;
-            margin: 2% 2% 2% 2%;
+            margin: 1% 1% 1% 1%;
             @keyframes suspension_2 {
                 from {
-                    background-color: #EEEEEE;
-                    width: 50px;
-                    height: 50px;
-                    border-radius: 25px;
-                }
-                50% {
-                    border: 1px solid black;
                     background-color: black;
-                    border: white;
                     width: 50px;
                     height: 50px;
                     border-radius: 25px;
                 }
-                90% {
-                    border: 1px solid black;
-                    background-color: white;
-                    border: white;
-                    width: 50px;
-                    height: 50px;
-                    border-radius: 25px;
-                    box-shadow: none;
-                }
-                100% {
-                    border: 1px solid black;
+                to {
                     background-color: white;
                     border: white;
                     width: 50px;
@@ -119,32 +83,15 @@
             box-shadow: 2px 2px 2px $black;
             transform: translateX(0) scale(1);
             animation: suspension_2 3s 1200ms ease-in-out;
-            margin: 2% 2% 2% 2%;
+            margin: 1% 1% 1% 1%;
             @keyframes suspension_2 {
                 from {
-                    background-color: #EEEEEE;
-                    width: 50px;
-                    height: 50px;
-                    border-radius: 25px;
-                }
-                50% {
-                    border: 1px solid black;
                     background-color: black;
-                    border: white;
                     width: 50px;
                     height: 50px;
                     border-radius: 25px;
                 }
-                90% {
-                    border: 1px solid black;
-                    background-color: white;
-                    border: white;
-                    width: 50px;
-                    height: 50px;
-                    border-radius: 25px;
-                    box-shadow: none;
-                }
-                100% {
+                to {
                     border: 1px solid black;
                     background-color: white;
                     border: white;
