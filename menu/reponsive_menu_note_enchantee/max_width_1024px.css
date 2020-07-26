@@ -20,28 +20,18 @@ footer {
     color: #ffcc33;
     text-decoration: none; }
   footer .container_footer {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     width: 100%;
     height: 40px;
     font-size: 0.9rem;
     position: fixed;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-between;
+    align-items: center;
     font-family: 'KronaOne-Regular', Arial, Helvetica, sans-serif;
     background-color: #669999; }
   footer .lien_footer {
     width: 25%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
+    justify-content: center; }
 
 /*# sourceMappingURL=max_width_1024px.css.map */

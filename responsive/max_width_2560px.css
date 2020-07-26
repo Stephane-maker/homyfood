@@ -30,21 +30,14 @@ footer {
   text-decoration: none;
   font-size: 2rem; }
 .for_footer .container_footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: 100px;
   position: fixed;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   font-family: 'KronaOne-Regular', Arial, Helvetica, sans-serif;
   background-color: #579c87; }
 .for_footer .lien_footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+  justify-content: center; }
 
 /*# sourceMappingURL=max_width_2560px.css.map */
