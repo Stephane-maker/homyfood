@@ -14,11 +14,13 @@ body {
     &--note_enchanter {
         background-color: $couleur_principal;
         @include margin();
+        width: 60%;
     }
     &--palette {
         background-color: $couleur_principal;
         @include margin();
         padding: 0 3% 0 3%;
+        width: 60%;
         & article {
             width: 100%;
         }
