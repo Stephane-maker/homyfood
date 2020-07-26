@@ -17,7 +17,6 @@ h1 {
     font-family: 'KronaOne-Regular', Arial, Helvetica, sans-serif;
     font-size: 3rem;
     color: $color_titre;
-    text-transform: uppercase;
 }
 
 .lien_cliquable {
@@ -119,9 +118,24 @@ footer {
     display: flex;
     justify-content: flex-end;
     position: absolute;
-    right: 25%;
+    right: 40.5%;
+    top: 189%;
 }
 
 .container_anim {
     display: flex;
+}
+
+#mention_legal{
+    display: none;
+}
+.wiggle--mention_legal:active{
+    #mention_legal:target{
+        display: inherit;
+        width: 100%;
+        height: 450px;
+        border: 1px solid black;
+        
+    }
+    
 }

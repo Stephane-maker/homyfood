@@ -1,83 +1,149 @@
+.lien_cliquable:hover p {
+  animation: molten_paragraphe 3s 330ms linear; }
+@keyframes molten_paragraphe {
+  from {
+    font-size: 1rem; }
+  to {
+    font-size: 1.5rem; } }
+.lien_cliquable:hover h2 {
+  animation: molten_title 3s 330ms linear; }
+@keyframes molten_title {
+  from {
+    font-size: 1.5rem; }
+  to {
+    font-size: 2rem; } }
 .lien_cliquable:hover {
-  background-color: #ffcccc;
-  box-shadow: 2px 2px 2px #000000;
-  width: 20%;
-  height: 300px;
-  transform: translateY(90%) translateX(100%) scale(1.5);
-  transition: transform 330ms ease-in-out;
-  background-color: #FCE4EC; }
+  animation: background_molten 3s 330ms linear; }
+@keyframes background_molten {
+  from {
+    background-color: #ffcccc; }
+  to {
+    background-color: white; } }
+.lien_cliquable.gauche:hover p {
+  animation: molten_paragraphe_gauche 3s 330ms linear; }
+@keyframes molten_paragraphe_gauche {
+  from {
+    font-size: 1.5rem; }
+  to {
+    font-size: 2rem; } }
+.lien_cliquable.gauche:hover h2 {
+  animation: molten_title_gauche 3s 330ms linear; }
+@keyframes molten_title_gauche {
+  from {
+    font-size: 2rem; }
+  to {
+    font-size: 2.5rem; } }
 .lien_cliquable.gauche:hover {
-  transform: translateY(100%) translateX(-100%) scale(1.5);
-  transition: transform 330ms ease-in-out;
-  background-color: white; }
+  animation: background_molten_gauche 3s 330ms linear; }
+@keyframes background_molten_gauche {
+  from {
+    background-color: #fff5fe; }
+  to {
+    background-color: white; } }
+.lien_cliquable.haut:hover p {
+  animation: molten_paragraphe_haut 3s 330ms linear; }
+@keyframes molten_paragraphe_haut {
+  from {
+    font-size: 1.5rem; }
+  to {
+    font-size: 2rem; } }
+.lien_cliquable.haut:hover h2 {
+  animation: molten_title_haut 3s 330ms linear; }
+@keyframes molten_title_haut {
+  from {
+    font-size: 2rem; }
+  to {
+    font-size: 2.5rem; } }
 .lien_cliquable.haut:hover {
-  transform: translateY(-80%) translateX(110%) scale(1.5);
-  transition: transform 330ms ease-in-out;
-  background-color: white; }
+  animation: background_molten_haut 3s 330ms linear; }
+@keyframes background_molten_haut {
+  from {
+    background-color: #fff5fe; }
+  to {
+    background-color: white; } }
+.lien_cliquable.centre:hover p {
+  animation: molten_paragraphe_centre 3s 330ms linear; }
+@keyframes molten_paragraphe_centre {
+  from {
+    font-size: 1.5rem; }
+  to {
+    font-size: 2rem; } }
+.lien_cliquable.centre:hover h2 {
+  animation: molten_title_centre 3s 330ms linear; }
+@keyframes molten_title_centre {
+  from {
+    font-size: 2rem; }
+  to {
+    font-size: 2.5rem; } }
 .lien_cliquable.centre:hover {
-  transform: translateY(-80%) translateX(-100%) scale(1.5);
-  transition: transform 330ms ease-in-out;
-  background-color: white; }
-
+  animation: background_molten_centre 3s 330ms linear; }
+@keyframes background_molten_centre {
+  from {
+    background-color: #fff5fe; }
+  to {
+    background-color: white; } }
 .btn:hover .rond {
-  background-color: #FAFAFA;
-  box-shadow: 2px 2px 2px #000000;
-  transform: translateX(0) scale(1);
   animation: suspension 3s 600ms ease-in-out;
   margin: 1% 1% 1% 1%; }
 @keyframes suspension {
   from {
     background-color: black;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px; }
-  100% {
-    background-color: white;
-    border: white;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px; }
+  to {
+    background-color: #579c87;
+    border: #579c87;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
     box-shadow: none; } }
 .btn:hover .rond-2 {
-  background-color: black;
-  box-shadow: 2px 2px 2px #000000;
-  transform: translateX(0) scale(1);
   animation: suspension_2 3s 900ms ease-in-out;
   margin: 1% 1% 1% 1%; }
 @keyframes suspension_2 {
   from {
     background-color: black;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px; }
+    width: 12px;
+    height: 12px;
+    border-radius: 12px; }
   to {
-    background-color: white;
-    border: white;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
+    background-color: #579c87;
+    border: #579c87;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
     box-shadow: none; } }
 .btn:hover .rond-3 {
-  background-color: black;
-  box-shadow: 2px 2px 2px #000000;
-  transform: translateX(0) scale(1);
   animation: suspension_2 3s 1200ms ease-in-out;
   margin: 1% 1% 1% 1%; }
 @keyframes suspension_2 {
   from {
     background-color: black;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px; }
+    width: 12px;
+    height: 12px;
+    border-radius: 12px; }
   to {
-    border: 1px solid black;
-    background-color: white;
-    border: white;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
+    background-color: #579c87;
+    border: #579c87;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
     box-shadow: none; } }
 .wiggle:hover {
+  animation: wiggle_animation 300ms ease-in-out; }
+@keyframes wiggle_animation {
+  from {
+    transform: rotate(3deg); }
+  25% {
+    transform: rotate(0deg); }
+  50% {
+    transform: rotate(3deg); }
+  75% {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(3deg); } }
+.lien_footer--responsive:hover {
   animation: wiggle_animation 300ms ease-in-out; }
 @keyframes wiggle_animation {
   from {
