@@ -9,6 +9,12 @@ article {
     font-size: 1.5rem;
 }
 
+.prix {
+    width: 25%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 .for_footer {
     bottom: 40px;
 }
@@ -21,8 +27,7 @@ footer {
     }
 }
 
-h6,
-.prix {
+h6 {
     font-size: 1.5rem;
     margin: 1% 0 1% 0;
 }

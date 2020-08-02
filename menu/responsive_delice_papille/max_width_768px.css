@@ -5,6 +5,12 @@
 img {
   width: 30%; }
 
+.prix {
+  width: 30%;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.5rem; }
+
 article {
   font-size: 1.2rem; }
 
@@ -36,8 +42,7 @@ footer {
     display: flex;
     justify-content: center; }
 
-h6,
-.prix {
+h6 {
   font-size: 1.5rem;
   margin: 1% 0 1% 0; }
 

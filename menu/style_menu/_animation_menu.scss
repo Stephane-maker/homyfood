@@ -1,5 +1,6 @@
 .underline:hover {
     .underline_decoration {
+        margin-top: -10%;
         animation: underline_decoration 600ms linear;
         @keyframes underline_decoration {
             from {

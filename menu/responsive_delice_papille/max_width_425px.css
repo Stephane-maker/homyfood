@@ -11,6 +11,11 @@ img {
 article {
   font-size: 1.2rem; }
 
+.prix {
+  width: 25%;
+  justify-content: flex-end;
+  align-items: center; }
+
 .titre_nav article {
   font-size: 2rem; }
 
@@ -39,8 +44,7 @@ footer {
     display: flex;
     justify-content: center; }
 
-h6,
-.prix {
+h6 {
   font-size: 1.2rem;
   margin: 1% 0 1% 0; }
 

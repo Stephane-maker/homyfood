@@ -10,6 +10,12 @@ article {
     font-size: 1.2rem;
 }
 
+.prix {
+    width: 25%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 img {
     display: none;
 }
@@ -54,8 +60,7 @@ h2 {
     font-size: 1.5rem;
 }
 
-h6,
-.prix {
+h6 {
     font-size: 1.2rem;
     margin: 1% 0 1% 0;
 }

@@ -32,8 +32,13 @@ nav article {
 
 article {
     font-size: 1rem;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin: 2% 0 2% 0;
+}
+
+.prix {
+    width: 25%;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 footer {
@@ -74,8 +79,7 @@ footer {
     }
 }
 
-h6,
-.prix {
+h6 {
     font-size: 1rem;
     margin: 2% 0 2% 0;
 }
