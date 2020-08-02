@@ -8,6 +8,12 @@ img {
 article {
   font-size: 1rem; }
 
+.prix {
+  width: 25%;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.2rem; }
+
 .for_footer {
   bottom: 40px; }
 
@@ -15,8 +21,7 @@ footer .lien_footer {
   font-size: 0.8rem;
   width: 40%; }
 
-h6,
-.prix {
+h6 {
   font-size: 1.2rem;
   margin: 1% 0 1% 0; }
 
