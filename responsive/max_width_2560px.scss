@@ -1,6 +1,6 @@
 @import "variable_responsive/variable_responsive.scss";
+@import "animation/_animation.scss";
 nav {
-    border: 1px solid black;
     height: 150px;
 }
 
@@ -51,4 +51,12 @@ footer {
         display: flex;
         justify-content: center;
     }
+}
+
+.anim {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 42%;
+    top: 287%;
 }
