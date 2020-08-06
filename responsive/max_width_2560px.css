@@ -382,6 +382,7 @@ footer {
           justify-content: flex-end;
   position: absolute;
   right: 42%;
-  top: 287%; }
+  border: 1px solid black;
+  top: 223%; }
 
 /*# sourceMappingURL=max_width_2560px.css.map */
