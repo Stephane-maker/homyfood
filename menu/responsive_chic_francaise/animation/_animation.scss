@@ -1,0 +1,281 @@
+@import "variable_responsive/_variable_responsive.scss";
+.lien_cliquable {
+    &:hover {
+        p{
+            animation: molten_paragraphe 3s 330ms linear;
+            @keyframes molten_paragraphe {
+                from{
+                    font-size: 1rem;
+                }
+                to{
+                    font-size: 1.5rem;
+                }
+            }
+        }
+        h2{
+            animation: molten_title 3s 330ms linear;
+            @keyframes molten_title{
+                from{
+                    font-size: 1.5rem;
+                }
+                to{
+                    font-size: 2rem;
+                }
+            }
+        }
+        &{
+            animation: background_molten 3s 330ms linear;
+            @keyframes background_molten{
+                from{
+                    background-color: $couleur_selection;
+                }
+                to{
+                    background-color: white;
+                }
+            }
+        }
+        
+    }
+    &.gauche:hover {
+        p{
+            animation: molten_paragraphe_gauche 3s 330ms linear;
+            @keyframes molten_paragraphe_gauche {
+                from{
+                    font-size: 1.5rem;
+                }
+                to{
+                    font-size: 2rem;
+                }
+            }
+        }
+        h2{
+            animation: molten_title_gauche 3s 330ms linear;
+            @keyframes molten_title_gauche{
+                from{
+                    font-size: 2rem;
+                }
+                to{
+                    font-size: 2.5rem;
+                }
+            }
+        }
+        &{
+            animation: background_molten_gauche 3s 330ms linear;
+            @keyframes background_molten_gauche{
+                from{
+                    background-color: $couleur_lien;
+                }
+                to{
+                    background-color: white;
+                }
+            }
+        }
+    }
+    &.haut:hover {
+        p{
+            animation: molten_paragraphe_haut 3s 330ms linear;
+            @keyframes molten_paragraphe_haut {
+                from{
+                    font-size: 1.5rem;
+                }
+                to{
+                    font-size: 2rem;
+                }
+            }
+        }
+        h2{
+            animation: molten_title_haut 3s 330ms linear;
+            @keyframes molten_title_haut{
+                from{
+                    font-size: 2rem;
+                }
+                to{
+                    font-size: 2.5rem;
+                }
+            }
+        }
+        &{
+            animation: background_molten_haut 3s 330ms linear;
+            @keyframes background_molten_haut{
+                from{
+                    background-color: $couleur_lien;
+                }
+                to{
+                    background-color: white;
+                }
+            }
+        }
+    }
+    &.centre:hover {
+        p{
+            animation: molten_paragraphe_centre 3s 330ms linear;
+            @keyframes molten_paragraphe_centre {
+                from{
+                    font-size: 1.5rem;
+                }
+                to{
+                    font-size: 2rem;
+                }
+            }
+        }
+        h2{
+            animation: molten_title_centre 3s 330ms linear;
+            @keyframes molten_title_centre{
+                from{
+                    font-size: 2rem;
+                }
+                to{
+                    font-size: 2.5rem;
+                }
+            }
+        }
+        &{
+            animation: background_molten_centre 3s 330ms linear;
+            @keyframes background_molten_centre{
+                from{
+                    background-color: $couleur_lien;
+                }
+                to{
+                    background-color: white;
+                }
+            }
+        }
+    }
+}
+
+.btn {
+    &:hover {
+        .rond {
+            animation: suspension 3s 600ms ease-in-out;
+            margin: 1% 1% 1% 1%;
+            @keyframes suspension {
+                from {
+                    background-color: black;
+                    width: 12px;
+                    height: 12px;
+                    border-radius: 12px;
+                }
+                to {
+                    background-color: $couleur_principal;
+                    border: $couleur_principal;
+                    width: 12px;
+                    height: 12px;
+                    border-radius: 12px;
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+    &:hover {
+        .rond-2 {
+            animation: suspension_2 3s 900ms ease-in-out;
+            margin: 1% 1% 1% 1%;
+            @keyframes suspension_2 {
+                from {
+                    background-color: black;
+                    width: 12px;
+                    height: 12px;
+                    border-radius: 12px;
+                }
+                to {
+                    background-color: $couleur_principal;
+                    border: $couleur_principal;
+                    width: 12px;
+                    height: 12px;
+                    border-radius: 12px;
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+    &:hover {
+        .rond-3 {
+            animation: suspension_2 3s 1200ms ease-in-out;
+            margin: 1% 1% 1% 1%;
+            @keyframes suspension_2 {
+                from {
+                    background-color: black;
+                    width: 12px;
+                    height: 12px;
+                    border-radius: 12px;
+                }
+                to {
+                    background-color: $couleur_principal;
+                    border: $couleur_principal;
+                    width: 12px;
+                    height: 12px;
+                    border-radius: 12px;
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+}
+
+.wiggle {
+    &:hover {
+        animation: wiggle_animation 300ms ease-in-out;
+        @keyframes wiggle_animation {
+            from {
+                transform: rotate(3deg);
+            }
+            25% {
+                transform: rotate(0deg);
+            }
+            50% {
+                transform: rotate(3deg);
+            }
+            75% {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(3deg);
+            }
+        }
+    }
+}
+.lien_footer--responsive{
+    &:hover{
+        animation: wiggle_animation 300ms ease-in-out;
+        @keyframes wiggle_animation {
+            from {
+                transform: rotate(3deg);
+            }
+            25% {
+                transform: rotate(0deg);
+            }
+            50% {
+                transform: rotate(3deg);
+            }
+            75% {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(3deg);
+            }
+        }
+    }
+}
+#afficher{
+    &:hover{
+        animation: wiggle_animation_afficher 300ms ease-in-out;
+        @keyframes wiggle_animation_afficher {
+            from {
+                transform: rotate(3deg);
+            }
+            25% {
+                transform: rotate(0deg);
+            }
+            50% {
+                transform: rotate(3deg);
+            }
+            75% {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(3deg);
+            }
+        }
+    }
+}
+
