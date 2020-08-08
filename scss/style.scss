@@ -111,15 +111,15 @@ footer {
     background-color: $couleur_principal;
     color: $color_titre;
     @include button();
-    @include elementcentre();
+    text-align: center;
 }
 
 .anim {
     display: flex;
     justify-content: flex-end;
-    position: absolute;
-    right: 40.5%;
-    top: 189%;
+    align-items: flex-end;
+    align-content: flex-end;
+    margin-top: -5%;
 }
 
 .container_anim {

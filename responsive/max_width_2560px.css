@@ -373,16 +373,114 @@ footer {
       -ms-flex-pack: center;
           justify-content: center; }
 
+.btn {
+  width: 20%; }
+
 .anim {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 90%; }
+
+.container_anim {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  position: absolute;
-  right: 42%;
-  border: 1px solid black;
-  top: 223%; }
+  display: flex; }
+
+.lien_cliquable:hover p {
+  -webkit-animation: molten_paragraphe 3s 330ms linear;
+          animation: molten_paragraphe 3s 330ms linear; }
+@keyframes molten_paragraphe {
+  from {
+    font-size: 2.5rem; }
+  to {
+    font-size: 3rem; } }
+.lien_cliquable:hover h2 {
+  -webkit-animation: molten_title 3s 330ms linear;
+          animation: molten_title 3s 330ms linear; }
+@keyframes molten_title {
+  from {
+    font-size: 2.5rem; }
+  to {
+    font-size: 3rem; } }
+.lien_cliquable:hover {
+  -webkit-animation: background_molten 3s 330ms linear;
+          animation: background_molten 3s 330ms linear; }
+@keyframes background_molten {
+  from {
+    background-color: #ffcccc; }
+  to {
+    background-color: white; } }
+.lien_cliquable.gauche:hover p {
+  -webkit-animation: molten_paragraphe_gauche 3s 330ms linear;
+          animation: molten_paragraphe_gauche 3s 330ms linear; }
+@keyframes molten_paragraphe_gauche {
+  from {
+    font-size: 2.5rem; }
+  to {
+    font-size: 3rem; } }
+.lien_cliquable.gauche:hover h2 {
+  -webkit-animation: molten_title_gauche 3s 330ms linear;
+          animation: molten_title_gauche 3s 330ms linear; }
+@keyframes molten_title_gauche {
+  from {
+    font-size: 2.5rem; }
+  to {
+    font-size: 3rem; } }
+.lien_cliquable.gauche:hover {
+  -webkit-animation: background_molten_gauche 3s 330ms linear;
+          animation: background_molten_gauche 3s 330ms linear; }
+@keyframes background_molten_gauche {
+  from {
+    background-color: #fff5fe; }
+  to {
+    background-color: white; } }
+.lien_cliquable.haut:hover p {
+  -webkit-animation: molten_paragraphe_haut 3s 330ms linear;
+          animation: molten_paragraphe_haut 3s 330ms linear; }
+@keyframes molten_paragraphe_haut {
+  from {
+    font-size: 2.5rem; }
+  to {
+    font-size: 3rem; } }
+.lien_cliquable.haut:hover h2 {
+  -webkit-animation: molten_title_haut 3s 330ms linear;
+          animation: molten_title_haut 3s 330ms linear; }
+@keyframes molten_title_haut {
+  from {
+    font-size: 2.5rem; }
+  to {
+    font-size: 3rem; } }
+.lien_cliquable.haut:hover {
+  -webkit-animation: background_molten_haut 3s 330ms linear;
+          animation: background_molten_haut 3s 330ms linear; }
+@keyframes background_molten_haut {
+  from {
+    background-color: #fff5fe; }
+  to {
+    background-color: white; } }
+.lien_cliquable.centre:hover p {
+  -webkit-animation: molten_paragraphe_centre 3s 330ms linear;
+          animation: molten_paragraphe_centre 3s 330ms linear; }
+@keyframes molten_paragraphe_centre {
+  from {
+    font-size: 2.5rem; }
+  to {
+    font-size: 3rem; } }
+.lien_cliquable.centre:hover h2 {
+  -webkit-animation: molten_title_centre 3s 330ms linear;
+          animation: molten_title_centre 3s 330ms linear; }
+@keyframes molten_title_centre {
+  from {
+    font-size: 2.5rem; }
+  to {
+    font-size: 3rem; } }
+.lien_cliquable.centre:hover {
+  -webkit-animation: background_molten_centre 3s 330ms linear;
+          animation: background_molten_centre 3s 330ms linear; }
+@keyframes background_molten_centre {
+  from {
+    background-color: #fff5fe; }
+  to {
+    background-color: white; } }
 
 /*# sourceMappingURL=max_width_2560px.css.map */
