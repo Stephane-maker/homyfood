@@ -184,19 +184,7 @@ footer {
   outline: none;
   margin: 0 0 5% 0;
   font-size: 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  text-align: center; }
 
 .anim {
   display: -webkit-box;
@@ -205,12 +193,16 @@ footer {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  position: absolute;
-  right: 40.5%;
-  top: 189%; }
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+  margin-top: -5%; }
 
 .container_anim {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+
 /*# sourceMappingURL=style.css.map */

@@ -53,11 +53,158 @@ footer {
     }
 }
 
+.btn {
+    width: 20%;
+}
+
 .anim {
+    align-content: center;
+    width: 90%;
+}
+
+.container_anim {
     display: flex;
-    justify-content: flex-end;
-    position: absolute;
-    right: 42%;
-    border: 1px solid black;
-    top: 223%;
+}
+
+.lien_cliquable {
+    &:hover {
+        p {
+            animation: molten_paragraphe 3s 330ms linear;
+            @keyframes molten_paragraphe {
+                from {
+                    font-size: 2.5rem;
+                }
+                to {
+                    font-size: 3rem;
+                }
+            }
+        }
+        h2 {
+            animation: molten_title 3s 330ms linear;
+            @keyframes molten_title {
+                from {
+                    font-size: 2.5rem;
+                }
+                to {
+                    font-size: 3rem;
+                }
+            }
+        }
+        & {
+            animation: background_molten 3s 330ms linear;
+            @keyframes background_molten {
+                from {
+                    background-color: $couleur_selection;
+                }
+                to {
+                    background-color: white;
+                }
+            }
+        }
+    }
+    &.gauche:hover {
+        p {
+            animation: molten_paragraphe_gauche 3s 330ms linear;
+            @keyframes molten_paragraphe_gauche {
+                from {
+                    font-size: 2.5rem;
+                }
+                to {
+                    font-size: 3rem;
+                }
+            }
+        }
+        h2 {
+            animation: molten_title_gauche 3s 330ms linear;
+            @keyframes molten_title_gauche {
+                from {
+                    font-size: 2.5rem;
+                }
+                to {
+                    font-size: 3rem;
+                }
+            }
+        }
+        & {
+            animation: background_molten_gauche 3s 330ms linear;
+            @keyframes background_molten_gauche {
+                from {
+                    background-color: $couleur_lien;
+                }
+                to {
+                    background-color: white;
+                }
+            }
+        }
+    }
+    &.haut:hover {
+        p {
+            animation: molten_paragraphe_haut 3s 330ms linear;
+            @keyframes molten_paragraphe_haut {
+                from {
+                    font-size: 2.5rem;
+                }
+                to {
+                    font-size: 3rem;
+                }
+            }
+        }
+        h2 {
+            animation: molten_title_haut 3s 330ms linear;
+            @keyframes molten_title_haut {
+                from {
+                    font-size: 2.5rem;
+                }
+                to {
+                    font-size: 3rem;
+                }
+            }
+        }
+        & {
+            animation: background_molten_haut 3s 330ms linear;
+            @keyframes background_molten_haut {
+                from {
+                    background-color: $couleur_lien;
+                }
+                to {
+                    background-color: white;
+                }
+            }
+        }
+    }
+    &.centre:hover {
+        p {
+            animation: molten_paragraphe_centre 3s 330ms linear;
+            @keyframes molten_paragraphe_centre {
+                from {
+                    font-size: 2.5rem;
+                }
+                to {
+                    font-size: 3rem;
+                }
+            }
+        }
+        h2 {
+            animation: molten_title_centre 3s 330ms linear;
+            @keyframes molten_title_centre {
+                from {
+                    font-size: 2.5rem;
+                }
+                to {
+                    font-size: 3rem;
+                }
+            }
+        }
+        & {
+            animation: background_molten_centre 3s 330ms linear;
+            @keyframes background_molten_centre {
+                from {
+                    background-color: $couleur_lien;
+                }
+                to {
+                    background-color: white;
+                }
+            }
+        }
+    }
 }
