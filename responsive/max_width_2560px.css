@@ -290,41 +290,6 @@
   to {
     -webkit-transform: rotate(3deg);
             transform: rotate(3deg); } }
-#afficher:hover {
-  -webkit-animation: wiggle_animation_afficher 300ms ease-in-out;
-          animation: wiggle_animation_afficher 300ms ease-in-out; }
-@-webkit-keyframes wiggle_animation_afficher {
-  from {
-    -webkit-transform: rotate(3deg);
-            transform: rotate(3deg); }
-  25% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); }
-  50% {
-    -webkit-transform: rotate(3deg);
-            transform: rotate(3deg); }
-  75% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); }
-  to {
-    -webkit-transform: rotate(3deg);
-            transform: rotate(3deg); } }
-@keyframes wiggle_animation_afficher {
-  from {
-    -webkit-transform: rotate(3deg);
-            transform: rotate(3deg); }
-  25% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); }
-  50% {
-    -webkit-transform: rotate(3deg);
-            transform: rotate(3deg); }
-  75% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); }
-  to {
-    -webkit-transform: rotate(3deg);
-            transform: rotate(3deg); } }
 nav {
   height: 150px; }
 
