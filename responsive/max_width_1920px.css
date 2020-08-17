@@ -156,5 +156,108 @@
     transform: rotate(0deg); }
   to {
     transform: rotate(3deg); } }
+.lien_cliquable {
+  height: 500px; }
+  .lien_cliquable p {
+    font-size: 2rem; }
+  .lien_cliquable h2 {
+    font-size: 2.5rem; }
 
-/*# sourceMappingURL=max_width_1440px.css.map */
+footer {
+  bottom: 75px; }
+  footer .container_footer {
+    height: 75px;
+    display: flex;
+    align-items: center; }
+  footer a {
+    font-size: 1.5rem; }
+
+.anim {
+  width: 85%; }
+
+.lien_cliquable:hover p {
+  animation: molten_paragraphe 3s 330ms linear; }
+@keyframes molten_paragraphe {
+  from {
+    font-size: 2rem; }
+  to {
+    font-size: 2.5rem; } }
+.lien_cliquable:hover h2 {
+  animation: molten_title 3s 330ms linear; }
+@keyframes molten_title {
+  from {
+    font-size: 2.5rem; }
+  to {
+    font-size: 3rem; } }
+.lien_cliquable:hover {
+  animation: background_molten 3s 330ms linear; }
+@keyframes background_molten {
+  from {
+    background-color: #ffcccc; }
+  to {
+    background-color: white; } }
+.lien_cliquable.gauche:hover p {
+  animation: molten_paragraphe_gauche 3s 330ms linear; }
+@keyframes molten_paragraphe_gauche {
+  from {
+    font-size: 2rem; }
+  to {
+    font-size: 2.5rem; } }
+.lien_cliquable.gauche:hover h2 {
+  animation: molten_title_gauche 3s 330ms linear; }
+@keyframes molten_title_gauche {
+  from {
+    font-size: 2.5rem; }
+  to {
+    font-size: 3rem; } }
+.lien_cliquable.gauche:hover {
+  animation: background_molten_gauche 3s 330ms linear; }
+@keyframes background_molten_gauche {
+  from {
+    background-color: #fff5fe; }
+  to {
+    background-color: white; } }
+.lien_cliquable.haut:hover p {
+  animation: molten_paragraphe_haut 3s 330ms linear; }
+@keyframes molten_paragraphe_haut {
+  from {
+    font-size: 2rem; }
+  to {
+    font-size: 2.5rem; } }
+.lien_cliquable.haut:hover h2 {
+  animation: molten_title_haut 3s 330ms linear; }
+@keyframes molten_title_haut {
+  from {
+    font-size: 2.5rem; }
+  to {
+    font-size: 3rem; } }
+.lien_cliquable.haut:hover {
+  animation: background_molten_haut 3s 330ms linear; }
+@keyframes background_molten_haut {
+  from {
+    background-color: #fff5fe; }
+  to {
+    background-color: white; } }
+.lien_cliquable.centre:hover p {
+  animation: molten_paragraphe_centre 3s 330ms linear; }
+@keyframes molten_paragraphe_centre {
+  from {
+    font-size: 2rem; }
+  to {
+    font-size: 2.5rem; } }
+.lien_cliquable.centre:hover h2 {
+  animation: molten_title_centre 3s 330ms linear; }
+@keyframes molten_title_centre {
+  from {
+    font-size: 2.5rem; }
+  to {
+    font-size: 3rem; } }
+.lien_cliquable.centre:hover {
+  animation: background_molten_centre 3s 330ms linear; }
+@keyframes background_molten_centre {
+  from {
+    background-color: #fff5fe; }
+  to {
+    background-color: white; } }
+
+/*# sourceMappingURL=max_width_1920px.css.map */

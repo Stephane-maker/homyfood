@@ -1,69 +1,28 @@
-@import "variable_responsive/variable_responsive.scss";
-@import "animation/_animation.scss";
-nav {
-    height: 150px;
-}
-
-h1 {
-    font-size: 4rem;
-}
-
+@import "animation/animation.scss";
 .lien_cliquable {
-    height: 700px;
-    font-size: 2.5rem;
-}
-
-.gradient_chic,
-.gradient_papille,
-.gradient_palette,
-h2 {
-    font-size: 2.5rem;
-}
-
-.btn {
-    height: 80px;
-    width: 30%;
-    &-text {
-        font-size: 3.5rem;
+    height: 500px;
+    & p {
+        font-size: 2rem;
+    }
+    & h2 {
+        font-size: 2.5rem;
     }
 }
 
 footer {
-    position: absolute;
-    left: 0;
-    bottom: 100px;
-}
-
-.for_footer {
-    & a {
-        text-decoration: none;
-        font-size: 2rem;
-    }
+    bottom: 75px;
     & .container_footer {
+        height: 75px;
         display: flex;
-        height: 100px;
-        position: fixed;
-        justify-content: space-around;
-        font-family: 'KronaOne-Regular', Arial, Helvetica, sans-serif;
-        background-color: $couleur_principal;
+        align-items: center;
     }
-    & .lien_footer {
-        display: flex;
-        justify-content: center;
+    & a {
+        font-size: 1.5rem;
     }
-}
-
-.btn {
-    width: 20%;
 }
 
 .anim {
-    align-content: center;
-    width: 90%;
-}
-
-.container_anim {
-    display: flex;
+    width: 85%;
 }
 
 .lien_cliquable {
@@ -72,10 +31,10 @@ footer {
             animation: molten_paragraphe 3s 330ms linear;
             @keyframes molten_paragraphe {
                 from {
-                    font-size: 2.5rem;
+                    font-size: 2rem;
                 }
                 to {
-                    font-size: 3rem;
+                    font-size: 2.5rem;
                 }
             }
         }
@@ -107,10 +66,10 @@ footer {
             animation: molten_paragraphe_gauche 3s 330ms linear;
             @keyframes molten_paragraphe_gauche {
                 from {
-                    font-size: 2.5rem;
+                    font-size: 2rem;
                 }
                 to {
-                    font-size: 3rem;
+                    font-size: 2.5rem;
                 }
             }
         }
@@ -142,10 +101,10 @@ footer {
             animation: molten_paragraphe_haut 3s 330ms linear;
             @keyframes molten_paragraphe_haut {
                 from {
-                    font-size: 2.5rem;
+                    font-size: 2rem;
                 }
                 to {
-                    font-size: 3rem;
+                    font-size: 2.5rem;
                 }
             }
         }
@@ -177,10 +136,10 @@ footer {
             animation: molten_paragraphe_centre 3s 330ms linear;
             @keyframes molten_paragraphe_centre {
                 from {
-                    font-size: 2.5rem;
+                    font-size: 2rem;
                 }
                 to {
-                    font-size: 3rem;
+                    font-size: 2.5rem;
                 }
             }
         }
