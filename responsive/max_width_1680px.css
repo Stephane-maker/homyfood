@@ -291,7 +291,8 @@
     -webkit-transform: rotate(3deg);
             transform: rotate(3deg); } }
 .lien_cliquable {
-  height: 500px; }
+  width: 25%;
+  height: 700px; }
   .lien_cliquable p {
     font-size: 2rem; }
   .lien_cliquable h2 {
@@ -310,8 +311,11 @@ footer {
   footer a {
     font-size: 1.5rem; }
 
+.btn {
+  height: 60px; }
+
 .anim {
-  width: 85%; }
+  width: 90%; }
 
 .lien_cliquable:hover p {
   -webkit-animation: molten_paragraphe 3s 330ms linear;
@@ -409,5 +413,4 @@ footer {
     background-color: #fff5fe; }
   to {
     background-color: white; } }
-
-/*# sourceMappingURL=max_width_1920px.css.map */
+/*# sourceMappingURL=max_width_1680px.css.map */
