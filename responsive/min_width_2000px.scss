@@ -1,0 +1,204 @@
+@import "animation/animation.scss";
+nav {
+    height: 40%;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+p,
+.gradient_chic,
+.gradient_papille,
+.gradient_palette {
+    font-size: 2.5rem;
+}
+
+h2,
+.menu_chic,
+.menu_papille,
+.menu_palette {
+    font-size: 3rem;
+}
+
+.container {
+    height: 100%;
+}
+
+.lien_cliquable {
+    height: 800px;
+    width: 25%;
+}
+
+.btn {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    &--text {
+        font-size: 3rem;
+    }
+}
+
+.anim {
+    margin: 1% -8% 0 5%;
+    position: absolute;
+}
+
+footer {
+    bottom: 0px;
+    & .for_footer {
+        height: 80px;
+    }
+    & .container_footer {
+        height: 80px;
+        align-items: center;
+    }
+    & a {
+        font-size: 2rem;
+    }
+}
+
+.lien_cliquable {
+    &:hover {
+        p {
+            animation: molten_paragraphe 3s 330ms linear;
+            @keyframes molten_paragraphe {
+                from {
+                    font-size: 2.5rem;
+                }
+                to {
+                    font-size: 3rem;
+                }
+            }
+        }
+        h2 {
+            animation: molten_title 3s 330ms linear;
+            @keyframes molten_title {
+                from {
+                    font-size: 3rem;
+                }
+                to {
+                    font-size: 3.5rem;
+                }
+            }
+        }
+        & {
+            animation: background_molten 3s 330ms linear;
+            @keyframes background_molten {
+                from {
+                    background-color: $couleur_selection;
+                }
+                to {
+                    background-color: white;
+                }
+            }
+        }
+    }
+    &.gauche:hover {
+        p {
+            animation: molten_paragraphe_gauche 3s 330ms linear;
+            @keyframes molten_paragraphe_gauche {
+                from {
+                    font-size: 2.5rem;
+                }
+                to {
+                    font-size: 3rem;
+                }
+            }
+        }
+        h2 {
+            animation: molten_title_gauche 3s 330ms linear;
+            @keyframes molten_title_gauche {
+                from {
+                    font-size: 3rem;
+                }
+                to {
+                    font-size: 3.5rem;
+                }
+            }
+        }
+        & {
+            animation: background_molten_gauche 3s 330ms linear;
+            @keyframes background_molten_gauche {
+                from {
+                    background-color: $couleur_lien;
+                }
+                to {
+                    background-color: white;
+                }
+            }
+        }
+    }
+    &.haut:hover {
+        p {
+            animation: molten_paragraphe_haut 3s 330ms linear;
+            @keyframes molten_paragraphe_haut {
+                from {
+                    font-size: 2.5rem;
+                }
+                to {
+                    font-size: 3rem;
+                }
+            }
+        }
+        h2 {
+            animation: molten_title_haut 3s 330ms linear;
+            @keyframes molten_title_haut {
+                from {
+                    font-size: 3rem;
+                }
+                to {
+                    font-size: 3.5rem;
+                }
+            }
+        }
+        & {
+            animation: background_molten_haut 3s 330ms linear;
+            @keyframes background_molten_haut {
+                from {
+                    background-color: $couleur_lien;
+                }
+                to {
+                    background-color: white;
+                }
+            }
+        }
+    }
+    &.centre:hover {
+        p {
+            animation: molten_paragraphe_centre 3s 330ms linear;
+            @keyframes molten_paragraphe_centre {
+                from {
+                    font-size: 2.5rem;
+                }
+                to {
+                    font-size: 3rem;
+                }
+            }
+        }
+        h2 {
+            animation: molten_title_centre 3s 330ms linear;
+            @keyframes molten_title_centre {
+                from {
+                    font-size: 3rem;
+                }
+                to {
+                    font-size: 3.5rem;
+                }
+            }
+        }
+        & {
+            animation: background_molten_centre 3s 330ms linear;
+            @keyframes background_molten_centre {
+                from {
+                    background-color: $couleur_lien;
+                }
+                to {
+                    background-color: white;
+                }
+            }
+        }
+    }
+}
