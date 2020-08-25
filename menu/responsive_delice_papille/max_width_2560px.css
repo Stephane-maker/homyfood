@@ -6,16 +6,12 @@
   font-size: 3rem;
   margin-bottom: 2%; }
 
+body {
+  background-color: red; }
+
 .container--delice_papille {
-  width: 50%; }
-  .container--delice_papille h2,
-  .container--delice_papille h3,
-  .container--delice_papille h6,
-  .container--delice_papille .prix,
-  .container--delice_papille .note_enchante {
-    font-size: 2.5rem; }
-  .container--delice_papille .gradient--delice {
-    font-size: 3rem; }
+  border: 1px solid black;
+  background-color: red; }
 
 .for_footer {
   position: absolute;
@@ -28,17 +24,8 @@ footer {
     text-decoration: none;
     font-size: 2.5rem; }
   footer .container_footer {
-    display: flex;
     width: 100%;
-    height: 100px;
-    position: fixed;
-    justify-content: space-between;
-    align-items: center;
-    font-family: 'KronaOne-Regular', Arial, Helvetica, sans-serif; }
-  footer .lien_footer {
-    width: 25%;
-    display: flex;
-    justify-content: center; }
+    height: 100px; }
 
 .underline {
   height: 115px; }

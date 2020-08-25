@@ -1,0 +1,39 @@
+.titre_page,
+.titre_nav,
+h6,
+.prix,
+.titre {
+    font-size: 3rem;
+    height: 120px;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+.underline {
+    height: 100px;
+}
+
+.underline_decoration {}
+
+nav {
+    height: 180px;
+}
+
+.for_footer {
+    position: absolute;
+    left: 0;
+    bottom: 80px;
+}
+
+footer {
+    width: 100%;
+    & a {
+        font-size: 2rem;
+    }
+    & .container_footer {
+        display: flex;
+        height: 80px;
+    }
+}
