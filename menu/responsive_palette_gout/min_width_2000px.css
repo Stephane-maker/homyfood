@@ -6,14 +6,21 @@
   font-size: 3rem;
   margin-bottom: 2%; }
 
-.container--note_enchanter {
+.container--palette {
   width: 50%; }
-  .container--note_enchanter h2,
-  .container--note_enchanter h3,
-  .container--note_enchanter h6,
-  .container--note_enchanter .prix,
-  .container--note_enchanter .note_enchante {
-    font-size: 2.5rem; }
+  .container--palette .gradient--palette {
+    font-size: 3rem; }
+
+.prix {
+  font-size: 3rem;
+  border: 1px solid black;
+  width: 15%; }
+
+h2,
+h3,
+h6,
+.note_enchante {
+  font-size: 3rem; }
 
 .for_footer {
   position: absolute;
@@ -49,6 +56,6 @@ footer {
             justify-content: center; }
 
 .underline {
-  height: 110px; }
+  height: 130px; }
 
-/*# sourceMappingURL=max_width_2560px.css.map */
+/*# sourceMappingURL=min_width_2000px.css.map */
