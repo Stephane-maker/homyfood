@@ -1,0 +1,52 @@
+.titre_nav {
+    height: 150px;
+    font-size: 3rem;
+}
+
+.titre_page {
+    font-size: 3rem;
+    margin-bottom: 2%;
+}
+
+.container {
+    &--delice_papille {
+        width: 70%;
+    }
+}
+
+h3,
+.titre_page,
+h2 {
+    font-size: 3rem;
+}
+
+h6 {
+    width: 100%;
+    font-size: 3rem;
+}
+
+.prix {
+    width: 15%;
+    font-size: 3rem;
+}
+
+img {
+    margin: 0 2% 0 2%;
+}
+
+.for_footer {
+    bottom: 80px;
+}
+
+footer {
+    & a {
+        font-size: 2rem;
+    }
+    & .container_footer {
+        height: 80px;
+    }
+}
+
+.underline {
+    height: 115px;
+}

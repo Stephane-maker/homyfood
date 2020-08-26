@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACI,0BAAkB;EACd,KAAK,EAAE,GAAG;;AAIlB,UAAW;EACP,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;;AAGhB,EAAG;EACC,SAAS,EAAE,IAAI;;AAGnB;;;;;;CAME;EACE,SAAS,EAAE,IAAI",
+"sources": ["max_width_1600px.scss"],
+"names": [],
+"file": "max_width_1600px.css"
+}

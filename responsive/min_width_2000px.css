@@ -290,5 +290,158 @@
   to {
     -webkit-transform: rotate(3deg);
             transform: rotate(3deg); } }
+nav {
+  height: 40%; }
 
-/*# sourceMappingURL=max_width_1440px.css.map */
+h1 {
+  font-size: 6rem; }
+
+p,
+.gradient_chic,
+.gradient_papille,
+.gradient_palette {
+  font-size: 2.5rem; }
+
+h2,
+.menu_chic,
+.menu_papille,
+.menu_palette {
+  font-size: 3rem; }
+
+.container {
+  height: 100%; }
+
+.lien_cliquable {
+  height: 800px;
+  width: 25%; }
+
+.btn {
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap; }
+  .btn--text {
+    font-size: 3rem; }
+
+.anim {
+  margin: 1% -8% 0 5%;
+  position: absolute; }
+
+footer {
+  bottom: 0px; }
+  footer .for_footer {
+    height: 80px; }
+  footer .container_footer {
+    height: 80px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  footer a {
+    font-size: 2rem; }
+
+.lien_cliquable:hover p {
+  -webkit-animation: molten_paragraphe 3s 330ms linear;
+          animation: molten_paragraphe 3s 330ms linear; }
+@keyframes molten_paragraphe {
+  from {
+    font-size: 2.5rem; }
+  to {
+    font-size: 3rem; } }
+.lien_cliquable:hover h2 {
+  -webkit-animation: molten_title 3s 330ms linear;
+          animation: molten_title 3s 330ms linear; }
+@keyframes molten_title {
+  from {
+    font-size: 3rem; }
+  to {
+    font-size: 3.5rem; } }
+.lien_cliquable:hover {
+  -webkit-animation: background_molten 3s 330ms linear;
+          animation: background_molten 3s 330ms linear; }
+@keyframes background_molten {
+  from {
+    background-color: #ffcccc; }
+  to {
+    background-color: white; } }
+.lien_cliquable.gauche:hover p {
+  -webkit-animation: molten_paragraphe_gauche 3s 330ms linear;
+          animation: molten_paragraphe_gauche 3s 330ms linear; }
+@keyframes molten_paragraphe_gauche {
+  from {
+    font-size: 2.5rem; }
+  to {
+    font-size: 3rem; } }
+.lien_cliquable.gauche:hover h2 {
+  -webkit-animation: molten_title_gauche 3s 330ms linear;
+          animation: molten_title_gauche 3s 330ms linear; }
+@keyframes molten_title_gauche {
+  from {
+    font-size: 3rem; }
+  to {
+    font-size: 3.5rem; } }
+.lien_cliquable.gauche:hover {
+  -webkit-animation: background_molten_gauche 3s 330ms linear;
+          animation: background_molten_gauche 3s 330ms linear; }
+@keyframes background_molten_gauche {
+  from {
+    background-color: #fff5fe; }
+  to {
+    background-color: white; } }
+.lien_cliquable.haut:hover p {
+  -webkit-animation: molten_paragraphe_haut 3s 330ms linear;
+          animation: molten_paragraphe_haut 3s 330ms linear; }
+@keyframes molten_paragraphe_haut {
+  from {
+    font-size: 2.5rem; }
+  to {
+    font-size: 3rem; } }
+.lien_cliquable.haut:hover h2 {
+  -webkit-animation: molten_title_haut 3s 330ms linear;
+          animation: molten_title_haut 3s 330ms linear; }
+@keyframes molten_title_haut {
+  from {
+    font-size: 3rem; }
+  to {
+    font-size: 3.5rem; } }
+.lien_cliquable.haut:hover {
+  -webkit-animation: background_molten_haut 3s 330ms linear;
+          animation: background_molten_haut 3s 330ms linear; }
+@keyframes background_molten_haut {
+  from {
+    background-color: #fff5fe; }
+  to {
+    background-color: white; } }
+.lien_cliquable.centre:hover p {
+  -webkit-animation: molten_paragraphe_centre 3s 330ms linear;
+          animation: molten_paragraphe_centre 3s 330ms linear; }
+@keyframes molten_paragraphe_centre {
+  from {
+    font-size: 2.5rem; }
+  to {
+    font-size: 3rem; } }
+.lien_cliquable.centre:hover h2 {
+  -webkit-animation: molten_title_centre 3s 330ms linear;
+          animation: molten_title_centre 3s 330ms linear; }
+@keyframes molten_title_centre {
+  from {
+    font-size: 3rem; }
+  to {
+    font-size: 3.5rem; } }
+.lien_cliquable.centre:hover {
+  -webkit-animation: background_molten_centre 3s 330ms linear;
+          animation: background_molten_centre 3s 330ms linear; }
+@keyframes background_molten_centre {
+  from {
+    background-color: #fff5fe; }
+  to {
+    background-color: white; } }
+
+/*# sourceMappingURL=min_width_2000px.css.map */
