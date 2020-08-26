@@ -9,11 +9,17 @@
 .container--delice_papille {
   width: 70%; }
 
-h6,
-.prix,
 h3,
 .titre_page,
 h2 {
+  font-size: 3rem; }
+
+h6 {
+  width: 100%;
+  font-size: 3rem; }
+
+.prix {
+  width: 15%;
   font-size: 3rem; }
 
 img {

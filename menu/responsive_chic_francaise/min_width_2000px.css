@@ -7,45 +7,28 @@
   margin-bottom: 2%; }
 
 .container--chic_francaise {
-  width: 50%; }
+  width: 60%; }
   .container--chic_francaise h2,
-  .container--chic_francaise h3,
-  .container--chic_francaise h6,
-  .container--chic_francaise .prix {
+  .container--chic_francaise h3 {
     font-size: 2.5rem; }
 
+h6 {
+  width: 100%;
+  font-size: 2.5rem; }
+
+.prix {
+  width: 15%;
+  font-size: 2.5rem; }
+
 .for_footer {
-  position: absolute;
-  left: 0;
-  bottom: 100px; }
+  bottom: 80px; }
 
 footer {
   width: 100%; }
   footer a {
-    text-decoration: none;
-    font-size: 2.5rem; }
+    font-size: 2rem; }
   footer .container_footer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    height: 100px;
-    position: fixed;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    font-family: 'KronaOne-Regular', Arial, Helvetica, sans-serif; }
-  footer .lien_footer {
-    width: 25%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
+    height: 80px; }
 
 .underline {
   height: 120px; }

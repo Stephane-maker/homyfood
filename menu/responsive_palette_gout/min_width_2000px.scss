@@ -21,13 +21,16 @@
 
 .prix {
     font-size: 3rem;
-    border: 1px solid black;
     width: 15%;
+}
+
+h6 {
+    font-size: 3rem;
+    width: 100%;
 }
 
 h2,
 h3,
-h6,
 .note_enchante {
     font-size: 3rem;
 }
@@ -35,28 +38,16 @@ h6,
 .for_footer {
     position: absolute;
     left: 0;
-    bottom: 100px;
+    bottom: 80px;
 }
 
 footer {
     width: 100%;
     & a {
-        text-decoration: none;
         font-size: 2.5rem;
     }
     & .container_footer {
-        display: flex;
-        width: 100%;
-        height: 100px;
-        position: fixed;
-        justify-content: space-between;
-        align-items: center;
-        font-family: 'KronaOne-Regular', Arial, Helvetica, sans-serif;
-    }
-    & .lien_footer {
-        width: 25%;
-        display: flex;
-        justify-content: center;
+        height: 80px;
     }
 }
 

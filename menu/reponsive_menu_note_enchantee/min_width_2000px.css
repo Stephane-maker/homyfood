@@ -1,10 +1,19 @@
+.container--note_enchanter {
+  width: 60%; }
+
 .titre_page,
 .titre_nav,
-h6,
-.prix,
 .titre {
   font-size: 3rem;
   height: 120px; }
+
+h6 {
+  font-size: 3rem;
+  width: 100%; }
+
+.prix {
+  font-size: 3rem;
+  width: 15%; }
 
 h3 {
   font-size: 2.5rem; }
