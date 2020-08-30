@@ -71,25 +71,25 @@
             transform: rotate(3deg); } }
 .titre_nav {
   height: 150px;
-  font-size: 3rem; }
+  font-size: 2rem; }
 
 .titre_page {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 2%; }
 
 .container--chic_francaise {
   width: 60%; }
   .container--chic_francaise h2,
   .container--chic_francaise h3 {
-    font-size: 2.5rem; }
+    font-size: 2rem; }
 
 h6 {
   width: 100%;
-  font-size: 2.5rem; }
+  font-size: 2rem; }
 
 .prix {
   width: 15%;
-  font-size: 2.5rem; }
+  font-size: 2rem; }
 
 .for_footer {
   bottom: 80px; }

@@ -2,11 +2,11 @@
 @import "animation/animation_menu.scss";
 .titre_nav {
     height: 150px;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .titre_page {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 2%;
 }
 
@@ -15,26 +15,26 @@
         width: 50%;
         & .gradient {
             &--palette {
-                font-size: 3rem;
+                font-size: 2rem;
             }
         }
     }
 }
 
 .prix {
-    font-size: 3rem;
+    font-size: 2rem;
     width: 15%;
 }
 
 h6 {
-    font-size: 3rem;
+    font-size: 2rem;
     width: 100%;
 }
 
 h2,
 h3,
 .note_enchante {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .for_footer {
@@ -46,7 +46,7 @@ h3,
 footer {
     width: 100%;
     & a {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     & .container_footer {
         height: 80px;

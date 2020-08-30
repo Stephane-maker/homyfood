@@ -70,29 +70,29 @@
             transform: rotate(3deg); } }
 .titre_nav {
   height: 150px;
-  font-size: 3rem; }
+  font-size: 2rem; }
 
 .titre_page {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 2%; }
 
 .container--palette {
   width: 50%; }
   .container--palette .gradient--palette {
-    font-size: 3rem; }
+    font-size: 2rem; }
 
 .prix {
-  font-size: 3rem;
+  font-size: 2rem;
   width: 15%; }
 
 h6 {
-  font-size: 3rem;
+  font-size: 2rem;
   width: 100%; }
 
 h2,
 h3,
 .note_enchante {
-  font-size: 3rem; }
+  font-size: 2rem; }
 
 .for_footer {
   position: absolute;
@@ -102,7 +102,7 @@ h3,
 footer {
   width: 100%; }
   footer a {
-    font-size: 2.5rem; }
+    font-size: 2rem; }
   footer .container_footer {
     height: 80px; }
 

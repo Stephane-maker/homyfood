@@ -53,17 +53,17 @@
 .titre_page,
 .titre_nav,
 .titre {
-  font-size: 3rem;
+  font-size: 2rem;
   height: 120px;
 }
 
 h6 {
-  font-size: 3rem;
+  font-size: 2rem;
   width: 100%;
 }
 
 .prix {
-  font-size: 3rem;
+  font-size: 2rem;
   width: 15%;
 }
 
