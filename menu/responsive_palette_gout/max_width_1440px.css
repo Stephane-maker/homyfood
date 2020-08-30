@@ -29,5 +29,16 @@
     transform: rotate(0deg); }
   to {
     transform: rotate(3deg); } }
+.palette {
+  margin-top: -20%; }
+
+.palette_underline {
+  margin-top: -15%; }
+
+.palette_adaptation {
+  margin-top: -10%; }
+
+.underline {
+  height: 90px; }
 
 /*# sourceMappingURL=max_width_1440px.css.map */

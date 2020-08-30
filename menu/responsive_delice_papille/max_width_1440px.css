@@ -29,5 +29,10 @@
     transform: rotate(0deg); }
   to {
     transform: rotate(3deg); } }
+.delice {
+  margin-top: -10%; }
+
+.underline {
+  height: 75px; }
 
 /*# sourceMappingURL=max_width_1440px.css.map */
