@@ -1,0 +1,49 @@
+.container--note_enchanter {
+  width: 95%;
+  margin: auto;
+  margin-bottom: 20%;
+}
+
+.titre_page {
+  margin-bottom: 2%;
+}
+
+nav article {
+  font-size: 2rem;
+}
+
+.separateur {
+  display: none;
+}
+
+article {
+  font-size: 1rem;
+  margin: 2% 0 2% 0;
+}
+
+.prix {
+  width: 20%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.for_footer {
+  position: absolute;
+  left: 0;
+  bottom: 40px;
+}
+
+footer {
+  width: 100%;
+}
+footer .container_footer {
+  font-size: 0.9rem;
+}
+footer .lien_footer {
+  width: 50%;
+}
+
+h6 {
+  font-size: 1rem;
+  margin: 2% 0 2% 0;
+}
