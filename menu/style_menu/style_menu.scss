@@ -1,7 +1,6 @@
 @import "polices_menu.scss";
 @import "mixin_menu.scss";
 @import "variable_menu.scss";
-@import "_animation_menu.scss";
 body {
     @include elementencolonne();
     display: flex;

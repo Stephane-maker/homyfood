@@ -1,11 +1,7 @@
+@import "animation/animation_menu.scss";
 .titre_nav {
     height: 150px;
     font-size: 3rem;
-}
-
-.titre_page {
-    font-size: 3rem;
-    margin-bottom: 2%;
 }
 
 .container {
@@ -17,7 +13,7 @@
 h3,
 .titre_page,
 h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 h6 {

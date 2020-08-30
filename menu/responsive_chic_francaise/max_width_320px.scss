@@ -29,33 +29,11 @@ h1 {
     margin-top: 5%;
 }
 
-.for_footer {
-    position: absolute;
-    left: 0;
-    bottom: 40px;
-}
-
 footer {
     width: 100%;
-    & a {
-        color: $color_titre;
-        text-decoration: none;
-    }
-    & .container_footer {
-        display: flex;
-        width: 100%;
-        height: 40px;
-        position: fixed;
-        justify-content: space-between;
-        align-items: center;
-        font-family: 'KronaOne-Regular', Arial, Helvetica, sans-serif;
-        background-color: $couleur_principal;
-    }
     & .lien_footer {
-        width: 40%;
-        display: flex;
-        justify-content: center;
-        font-size: 0.7rem;
+        width: 50%;
+        font-size: 0.8rem;
     }
 }
 

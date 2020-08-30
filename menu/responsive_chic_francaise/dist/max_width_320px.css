@@ -1,0 +1,44 @@
+.container--chic_francaise {
+  width: 90%;
+  margin-bottom: 15%;
+}
+
+article {
+  font-size: 1rem;
+}
+
+.prix {
+  width: 35%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.titre_nav article {
+  font-size: 2rem;
+}
+
+img {
+  display: none;
+}
+
+h1 {
+  font-size: 1.2rem;
+  margin-top: 5%;
+}
+
+footer {
+  width: 100%;
+}
+footer .lien_footer {
+  width: 50%;
+  font-size: 0.8rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+h6 {
+  font-size: 1.2rem;
+  margin: 1% 0 1% 0;
+}

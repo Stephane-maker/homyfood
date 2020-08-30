@@ -1,0 +1,97 @@
+.underline:hover .underline_decoration {
+  margin-top: -10%;
+  animation: underline_decoration 600ms linear;
+}
+@keyframes underline_decoration {
+  from {
+    border: 1px solid black;
+    width: 5%;
+  }
+  25% {
+    width: 25%;
+    border: 1px solid black;
+  }
+  50% {
+    width: 50%;
+    border: 1px solid black;
+  }
+  75% {
+    width: 75%;
+    border: 1px solid black;
+  }
+  to {
+    width: 100%;
+    border: 1px solid black;
+  }
+}
+
+.wiggle:hover {
+  animation: wiggle_animation 300ms ease-in-out;
+}
+@keyframes wiggle_animation {
+  from {
+    transform: rotate(3deg);
+  }
+  25% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+  75% {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(3deg);
+  }
+}
+
+.container--note_enchanter {
+  width: 60%;
+}
+
+.titre_page,
+.titre_nav,
+.titre {
+  font-size: 3rem;
+  height: 120px;
+}
+
+h6 {
+  font-size: 3rem;
+  width: 100%;
+}
+
+.prix {
+  font-size: 3rem;
+  width: 15%;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+.underline {
+  height: 100px;
+}
+
+nav {
+  height: 180px;
+}
+
+.for_footer {
+  position: absolute;
+  left: 0;
+  bottom: 80px;
+}
+
+footer {
+  width: 100%;
+}
+footer a {
+  font-size: 2rem;
+}
+footer .container_footer {
+  display: flex;
+  height: 80px;
+}

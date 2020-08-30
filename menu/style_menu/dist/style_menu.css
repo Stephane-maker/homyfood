@@ -1,0 +1,257 @@
+@font-face {
+  font-family: "DancingScript-VariableFont_wght";
+  src: url("../style_menu/polices_menu/regular_400/DancingScript-VariableFont_wght.eot");
+  src: url("../style_menu/polices_menu/regular_400/DancingScript-VariableFont_wght.eot?#iefix") format("embedded-opentype"), url("../style_menu/polices_menu/regular_400/DancingScript-VariableFont_wght.ttf") format("truetype"), url("../style_menu/polices_menu/regular_400/DancingScript-VariableFont_wght.svg#Lobster-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PatrickHand-Regular";
+  src: url("../style_menu/polices_menu/patrick/PatrickHand-Regular.eot");
+  src: url("../style_menu/polices_menu/patrick/PatrickHand-Regular.eot?#iefix") format("embedded-opentype"), url("../style_menu/polices_menu/patrick/PatrickHand-Regular.ttf") format("truetype"), url("../style_menu/polices_menu/patrick/PatrickHand-Regular.svg#PatrickHand-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto-Italic";
+  src: url("../style_menu/polices_menu/roboto/Roboto-Italic.eot");
+  src: url("../style_menu/polices_menu/roboto/Roboto-Italic.eot?#iefix") format("embedded-opentype"), url("../style_menu/polices_menu/roboto/Roboto-Italic.ttf") format("truetype"), url("../style_menu/polices_menu/roboto/Roboto-Italic.svg#") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "BalsamiqSans-BoldItalic";
+  src: url("../style_menu/polices_menu/balsamiq/BalsamiqSans-BoldItalic.eot");
+  src: url("../style_menu/polices_menu/balsamiq/BalsamiqSans-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../style_menu/polices_menu/balsamiq/BalsamiqSans-BoldItalic.ttf") format("truetype"), url("../style_menu/polices_menu/balsamiq/BalsamiqSans-BoldItalic.svg#BalsamiqSans-BoldItalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "KronaOne-Regular";
+  src: url("../style_menu/polices_menu/krona/KronaOne-Regular.eot");
+  src: url("../style_menu/polices_menu/krona/KronaOne-Regular.eot?#iefix") format("embedded-opentype"), url("../style_menu/polices_menu/krona/KronaOne-Regular.ttf") format("truetype"), url("../style_menu/polices_menu/krona/KronaOne-Regular.svg#") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.container--note_enchanter {
+  background-color: #ffcccc;
+  margin: auto;
+  width: auto;
+  height: auto;
+  margin-bottom: 5%;
+  width: 60%;
+}
+.container--palette {
+  background-color: #ffcccc;
+  margin: auto;
+  width: auto;
+  height: auto;
+  margin-bottom: 5%;
+  padding: 0 3% 0 3%;
+  width: 60%;
+}
+.container--palette article {
+  width: 100%;
+}
+.container--chic_francaise {
+  margin: auto;
+  width: auto;
+  height: auto;
+  margin-bottom: 5%;
+  background-color: #ffcccc;
+}
+.container--delice_papille {
+  background-color: #ffcccc;
+  margin: auto;
+  width: auto;
+  height: auto;
+  margin-bottom: 5%;
+}
+
+article {
+  padding: 0 2% 0 2%;
+}
+
+.titre_nav {
+  background-color: #669999;
+  width: 100%;
+  height: 80px;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+nav {
+  font-family: "KronaOne-Regular", Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 1.8rem;
+  color: #ffcc33;
+}
+
+.titre_page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-weight: bolder;
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+h3.rouge {
+  color: #cc6600;
+}
+h3.violet {
+  color: #996699;
+}
+h3.blue {
+  color: #6633cc;
+}
+
+.text {
+  color: #cc6600;
+}
+.text--violet {
+  color: #996699;
+}
+.text--blue {
+  color: #6633cc;
+}
+
+.titre_principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.prix {
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 0 5%;
+}
+
+.separateur {
+  margin: 5% 5% 5% 5%;
+}
+
+.logo {
+  margin: 0 2% 0 0;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  margin: 2% 0 2% 0;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+section,
+.titre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.container_menu {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.container_note_enchante {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 5% 0 0 0;
+}
+
+.note_enchante {
+  margin: 0 0 0 2%;
+}
+
+.gradient {
+  background: -webkit-gradient(linear, left bottom, right bottom, from(#cc9900), to(#9966ff));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  display: flex;
+}
+.gradient--delice {
+  background: -webkit-gradient(linear, left bottom, right bottom, from(#0033cc), to(#0099ff));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+.gradient--palette {
+  background: -webkit-gradient(linear, left bottom, right bottom, from(#339933), to(#ccff66));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin: 0 2% 0 2%;
+}
+
+.for_footer {
+  position: absolute;
+  left: 0;
+  bottom: 40px;
+}
+
+footer {
+  width: 100%;
+}
+footer a {
+  color: #ffcc33;
+  text-decoration: none;
+}
+footer .container_footer {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "KronaOne-Regular", Arial, Helvetica, sans-serif;
+  background-color: #669999;
+}
+footer .lien_footer {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+h6 {
+  font-weight: lighter;
+  display: flex;
+  margin: 0;
+  font-size: 1.2rem;
+}

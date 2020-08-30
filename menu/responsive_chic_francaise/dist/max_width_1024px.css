@@ -1,0 +1,95 @@
+.underline:hover .underline_decoration {
+  margin-top: -10%;
+  animation: underline_decoration 600ms linear;
+}
+@keyframes underline_decoration {
+  from {
+    border: 1px solid black;
+    width: 5%;
+  }
+  25% {
+    width: 25%;
+    border: 1px solid black;
+  }
+  50% {
+    width: 50%;
+    border: 1px solid black;
+  }
+  75% {
+    width: 75%;
+    border: 1px solid black;
+  }
+  to {
+    width: 100%;
+    border: 1px solid black;
+  }
+}
+
+.wiggle:hover {
+  animation: wiggle_animation 300ms ease-in-out;
+}
+@keyframes wiggle_animation {
+  from {
+    transform: rotate(3deg);
+  }
+  25% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+  75% {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(3deg);
+  }
+}
+
+.titre_page {
+  margin-bottom: 2%;
+}
+
+.container--chic_francaise {
+  margin-bottom: 10%;
+}
+
+.for_footer {
+  position: absolute;
+  left: 0;
+  bottom: 40px;
+}
+
+footer {
+  width: 100%;
+}
+footer a {
+  color: #ffcc33;
+  text-decoration: none;
+}
+footer .container_footer {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  font-size: 0.9rem;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "KronaOne-Regular", Arial, Helvetica, sans-serif;
+  background-color: #669999;
+}
+footer .lien_footer {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+.prix {
+  margin: 1% 1% 1% 1%;
+  font-size: 1.5rem;
+}
+
+h6 {
+  font-size: 1.5rem;
+  margin: 1% 0 1% 0;
+}

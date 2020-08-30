@@ -1,0 +1,99 @@
+.underline:hover .underline_decoration {
+  animation: underline_decoration 600ms linear;
+}
+@keyframes underline_decoration {
+  from {
+    border: 1px solid black;
+    width: 5%;
+  }
+  25% {
+    width: 25%;
+    border: 1px solid black;
+  }
+  50% {
+    width: 50%;
+    border: 1px solid black;
+  }
+  75% {
+    width: 75%;
+    border: 1px solid black;
+  }
+  to {
+    width: 100%;
+    border: 0px transparent white;
+  }
+}
+
+.wiggle:hover {
+  animation: wiggle_animation 300ms ease-in-out;
+}
+@keyframes wiggle_animation {
+  from {
+    transform: rotate(3deg);
+  }
+  25% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+  75% {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(3deg);
+  }
+}
+
+.titre_nav {
+  height: 150px;
+  font-size: 3rem;
+}
+
+.titre_page {
+  font-size: 3rem;
+  margin-bottom: 2%;
+}
+
+.container--palette {
+  width: 50%;
+}
+.container--palette .gradient--palette {
+  font-size: 3rem;
+}
+
+.prix {
+  font-size: 3rem;
+  width: 15%;
+}
+
+h6 {
+  font-size: 3rem;
+  width: 100%;
+}
+
+h2,
+h3,
+.note_enchante {
+  font-size: 3rem;
+}
+
+.for_footer {
+  position: absolute;
+  left: 0;
+  bottom: 80px;
+}
+
+footer {
+  width: 100%;
+}
+footer a {
+  font-size: 2.5rem;
+}
+footer .container_footer {
+  height: 80px;
+}
+
+.underline {
+  height: 130px;
+}

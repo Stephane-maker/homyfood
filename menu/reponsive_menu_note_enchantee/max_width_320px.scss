@@ -52,30 +52,16 @@ footer {
 .for_footer {
     position: absolute;
     left: 0;
-    bottom: 20px;
+    bottom: 40px;
 }
 
 footer {
     width: 100%;
-    & a {
-        color: $color_titre;
-        text-decoration: none;
-    }
     & .container_footer {
-        display: flex;
-        width: 100%;
-        height: 60px;
         font-size: 0.9rem;
-        position: fixed;
-        justify-content: space-between;
-        align-items: center;
-        font-family: 'KronaOne-Regular', Arial, Helvetica, sans-serif;
-        background-color: $couleur_principal;
     }
     & .lien_footer {
         width: 50%;
-        display: flex;
-        justify-content: center;
     }
 }
 

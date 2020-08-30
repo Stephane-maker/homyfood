@@ -1,0 +1,67 @@
+.underline:hover .underline_decoration {
+  animation: underline_decoration 600ms linear;
+}
+@keyframes underline_decoration {
+  from {
+    border: 1px solid black;
+    width: 5%;
+  }
+  25% {
+    width: 25%;
+    border: 1px solid black;
+  }
+  50% {
+    width: 50%;
+    border: 1px solid black;
+  }
+  75% {
+    width: 75%;
+    border: 1px solid black;
+  }
+  to {
+    width: 100%;
+    border: 0px transparent white;
+  }
+}
+
+.wiggle:hover {
+  animation: wiggle_animation 300ms ease-in-out;
+}
+@keyframes wiggle_animation {
+  from {
+    transform: rotate(3deg);
+  }
+  25% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+  75% {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(3deg);
+  }
+}
+
+.container--palette {
+  width: 80%;
+  margin-bottom: 15%;
+}
+
+.for_footer {
+  bottom: 40px;
+}
+
+footer .lien_footer {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+}
+
+h6,
+.prix {
+  font-size: 1.5rem;
+  margin: 1% 0 1% 0;
+}
