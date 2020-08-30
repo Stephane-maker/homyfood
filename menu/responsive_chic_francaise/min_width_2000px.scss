@@ -2,11 +2,11 @@
 @import "animation/animation_menu.scss";
 .titre_nav {
     height: 150px;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .titre_page {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 2%;
 }
 
@@ -15,19 +15,19 @@
         width: 60%;
         & h2,
         h3 {
-            font-size: 2.5rem;
+            font-size: 2rem;
         }
     }
 }
 
 h6 {
     width: 100%;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .prix {
     width: 15%;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .for_footer {

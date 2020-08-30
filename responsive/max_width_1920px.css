@@ -311,7 +311,8 @@ footer {
     font-size: 1.5rem; }
 
 .anim {
-  width: 85%; }
+  width: 85%;
+  margin-top: -5%; }
 
 .lien_cliquable:hover p {
   -webkit-animation: molten_paragraphe 3s 330ms linear;
@@ -409,4 +410,5 @@ footer {
     background-color: #fff5fe; }
   to {
     background-color: white; } }
+
 /*# sourceMappingURL=max_width_1920px.css.map */
