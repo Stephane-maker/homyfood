@@ -20,7 +20,7 @@
   }
   to {
     width: 100%;
-    border: 1px solid black;
+    border: 0px transparent white;
   }
 }
 
@@ -43,4 +43,12 @@
   to {
     transform: rotate(3deg);
   }
+}
+
+.delice {
+  margin-top: -10%;
+}
+
+.underline {
+  height: 75px;
 }
