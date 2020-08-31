@@ -291,7 +291,8 @@
     -webkit-transform: rotate(3deg);
             transform: rotate(3deg); } }
 .lien_cliquable {
-  height: 500px; }
+  height: 500px;
+  width: 25%; }
   .lien_cliquable p {
     font-size: 2rem; }
   .lien_cliquable h2 {
