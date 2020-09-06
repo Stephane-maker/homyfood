@@ -100,4 +100,10 @@ h6,
 
 .underline {
   height: 90px; }
+
+.test {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
 /*# sourceMappingURL=max_width_1024px.css.map */

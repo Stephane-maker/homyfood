@@ -72,6 +72,11 @@
   height: 150px;
   font-size: 2rem; }
 
+.test {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
 .titre_page {
   font-size: 2rem;
   margin-bottom: 2%; }
@@ -117,4 +122,5 @@ footer {
 
 .underline {
   height: 130px; }
+
 /*# sourceMappingURL=min_width_2000px.css.map */
