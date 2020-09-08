@@ -72,6 +72,18 @@
   height: 150px;
   font-size: 2rem; }
 
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline; }
+
 .test {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -122,5 +134,4 @@ footer {
 
 .underline {
   height: 130px; }
-
 /*# sourceMappingURL=min_width_2000px.css.map */
