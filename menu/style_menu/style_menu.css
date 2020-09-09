@@ -160,6 +160,9 @@ h3 {
 
 .separateur {
   margin: 5% 5% 5% 5%; }
+  .separateur--francaise {
+    margin: 1% 1% 1% 1%;
+    width: 30%; }
 
 .logo {
   margin: 0 2% 0 0; }
@@ -297,4 +300,5 @@ h6 {
   display: flex;
   margin: 0;
   font-size: 1.2rem; }
+
 /*# sourceMappingURL=style_menu.css.map */
